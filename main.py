@@ -190,6 +190,30 @@ def calcSub(sub):
 				stuAbsent += 1
 
 		stuPsnt = stuPass + stuFail
+		# 0 = Reg no., 1 = Name, 2 = mrks
+		midSemMerit = []
+		for st in sub.stus:
+			if st[2][0].isdigit() and st[2][0] != "AA" and st[2][0] != "--":
+				midSemMerit.append((st[1], st[2][0]))
+		midSemToppers = sorted(midSemMerit, key=lambda t: t[1], reverse=True)
+		midSemLoosers = sorted(midSemMerit, key=lambda t: t[1])
+		
+		endSemMerit = []
+		for st in sub.stus:
+			if st[2][1].isdigit() and st[2][1] != "AA" and st[2][1] != "--":
+				endSemMerit.append((st[1], st[2][1]))
+		endSemToppers = sorted(endSemMerit, key=lambda t: t[1], reverse=True)
+		endSemLoosers = sorted(endSemMerit, key=lambda t: t[1])
+		
+		totalMerit = []
+		for st in sub.stus:
+			if st[2][2].isdigit() and st[2][2] != "AA" and st[2][2] != "--":
+				totalMerit.append((st[1], st[2][2]))
+		totalToppers = sorted(totalMerit, key=lambda t: t[1], reverse=True)
+		totalLoosers = sorted(totalMerit, key=lambda t: t[1])
+				
+		for i in range(5):
+			print(totalToppers[i])
 		
 		webPage = open("page.html", 'w')
 		webPage.write("""
@@ -199,49 +223,158 @@ def calcSub(sub):
 	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-	<h1 align="center"> %s </h1>
+	<table>
+		<tr>
+			<td><h1> &nbsp </h1><td>
+			<td><img src="src/aitlogo2.gif" height="65" width="75" onclick="location.href='../../index.html'"></td>
+			<td><h1> &nbsp&nbsp&nbsp </h1><td>
+			<td><button onclick="location.href='../home.html'"><b><h2> %s </h2></button></b></td>
+			<td><h1> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </h1><td>
+			<td><h1 align="center"> %s </h1><td>
+		<tr>
+	</table>
 	<table>	
 	<tr>
-		<td><table>
-			<tr align="center" colspan="2"><td><b>Student Info	</b></td></tr>
-			<tr><td>Total Student</td>		<td>%s</td></tr>
-			<tr><td>Students Pass</td>		<td>%s</td></tr>
-			<tr><td>Student Fail</td>		<td>%s</td></tr> 
-			<tr><td>Student Absent</td>		<td>%s</td></tr>
-			<tr><td> &nbsp </td></tr>
-			<tr align="center" colspan="2"><td><b>Mid Semester	</b></td></tr>
-			<tr><td>Min MidSem Marks</td>		<td>%s</td></tr>
-			<tr><td>Max MidSem Marks</td>		<td>%s</td><tr>
-			<tr><td>Avg MidSem Marks</td>		<td>%.2f</td><tr>
-			<tr><td> &nbsp </td></tr>
-			<tr align="center" colspan="2"><td><b>End Semester	</b></td></tr>
-			<tr><td>Min EndSem Marks</td>		<td>%s</td><tr>
-			<tr><td>Max EndSem Marks</td>		<td>%s</td><tr>
-			<tr><td>Avg EndSem Marks</td>		<td>%.2f</td><tr>
-			<tr><td> &nbsp </td></tr>
-			<tr align="center" colspan="2"><td><b>Total Marks	</b></td></tr>
-			<tr><td>Min Total Marks</td>		<td>%s</td><tr>
-			<tr><td>Max Total Marks</td>		<td>%s</td><tr>
-			<tr><td>Avg Total Marks</td>		<td>%.2f</td><tr>
-		</table></td>
-		<td><table>
-			<td><img id="theImage" src="midSem.png" onclick="changeImg()"></img></td>
-		</table></td>
+		<td>
+			<table>
+				<tr align="center" colspan="2"><td><b>Student Info	</b></td></tr>
+				<tr><td>Total Student</td>		<td>%s</td></tr>
+				<tr><td>Students Pass</td>		<td>%s</td></tr>
+				<tr><td>Student Fail</td>		<td>%s</td></tr> 
+				<tr><td>Student Absent</td>		<td>%s</td></tr>
+				<tr><td> &nbsp </td></tr>
+				<tr align="center" colspan="2"><td><b>Mid Semester	</b></td></tr>
+				<tr><td>Min MidSem Marks</td>		<td>%s</td></tr>
+				<tr><td>Max MidSem Marks</td>		<td>%s</td><tr>
+				<tr><td>Avg MidSem Marks</td>		<td>%.2f</td><tr>
+				<tr><td> &nbsp </td></tr>
+				<tr align="center" colspan="2"><td><b>End Semester	</b></td></tr>
+				<tr><td>Min EndSem Marks</td>		<td>%s</td><tr>
+				<tr><td>Max EndSem Marks</td>		<td>%s</td><tr>
+				<tr><td>Avg EndSem Marks</td>		<td>%.2f</td><tr>
+				<tr><td> &nbsp </td></tr>
+				<tr align="center" colspan="2"><td><b>Total Marks	</b></td></tr>
+				<tr><td>Min Total Marks</td>		<td>%s</td><tr>
+				<tr><td>Max Total Marks</td>		<td>%s</td><tr>
+				<tr><td>Avg Total Marks</td>		<td>%.2f</td><tr>
+			</table>
+		</td>
+		<td>
+			<img id="theImage" src="midSem.png" onclick="changeImg()"></img>
+		</td>
+		<td>
+		<div style="height:524px;width:250px;overflow:auto;">
+			<table>
+				<tr><td align='center'colspan='2'><b> Mid Sem Top 5 </b></td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+			</table>
+				<br>
+			<table>
+				<tr><td align='center'colspan='2'><b> Mid Sem Low 5 </b></td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+			</table>
+				<br>
+			<table>
+				<tr><td align='center'colspan='2'><b> End Sem Top 5 </b></td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+			</table>
+				<br>
+			<table>
+				<tr><td align='center'colspan='2'><b> End Sem Low 5 </b></td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+			</table>
+				<br>
+			<table>
+				<tr><td align='center'colspan='2'><b> Total Top 5 </b></td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+			</table>
+				<br>
+			<table>
+				<tr><td align='center'colspan='2'><b> Total Low 5 </b></td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+			</table>
+		</td>
 	</tr>
 	</table>
 </body>
 </html>		
-		""" % ( sub.sbBranch, sub.sbKey, str(stuPsnt + stuAbsent), str(stuPass), str(stuFail), str(stuAbsent), minMidSemMrks, maxMidSemMrks, midSemMrksSum / stuPsnt, minEndSemMrks, maxEndSemMrks, endSemMrksSum / stuPsnt, minTotalMrks, maxTotalMrks, totalMrksSum / stuPsnt))
+		""" % ( (sub.sbBranch + sub.sbKey), sub.sbBranch, sub.sbKey,
+		 str(stuPsnt + stuAbsent), str(stuPass), str(stuFail), str(stuAbsent),
+		 minMidSemMrks, maxMidSemMrks, midSemMrksSum / stuPsnt,
+		 minEndSemMrks, maxEndSemMrks, endSemMrksSum / stuPsnt,
+		 minTotalMrks, maxTotalMrks, totalMrksSum / stuPsnt,
+		 
+		 midSemToppers[0][0], midSemToppers[0][1],
+		 midSemToppers[1][0], midSemToppers[1][1],
+		 midSemToppers[2][0], midSemToppers[2][1],
+		 midSemToppers[3][0], midSemToppers[3][1],
+		 midSemToppers[4][0], midSemToppers[4][1],
+
+		 midSemLoosers[0][0], midSemLoosers[0][1],
+		 midSemLoosers[1][0], midSemLoosers[1][1],
+		 midSemLoosers[2][0], midSemLoosers[2][1],
+		 midSemLoosers[3][0], midSemLoosers[3][1],
+		 midSemLoosers[4][0], midSemLoosers[4][1],
+		 
+		 endSemToppers[0][0], endSemToppers[0][1],
+		 endSemToppers[1][0], endSemToppers[1][1],
+		 endSemToppers[2][0], endSemToppers[2][1],
+		 endSemToppers[3][0], endSemToppers[3][1],
+		 endSemToppers[4][0], endSemToppers[4][1],
+
+		 endSemLoosers[0][0], endSemLoosers[0][1],
+		 endSemLoosers[1][0], endSemLoosers[1][1],
+		 endSemLoosers[2][0], endSemLoosers[2][1],
+		 endSemLoosers[3][0], endSemLoosers[3][1],
+		 endSemLoosers[4][0], endSemLoosers[4][1],
+		 
+		 totalToppers[0][0], totalToppers[0][1],
+		 totalToppers[1][0], totalToppers[1][1],
+		 totalToppers[2][0], totalToppers[2][1],
+		 totalToppers[3][0], totalToppers[3][1],
+		 totalToppers[4][0], totalToppers[4][1],
+
+		 totalLoosers[0][0], totalLoosers[0][1],
+		 totalLoosers[1][0], totalLoosers[1][1],
+		 totalLoosers[2][0], totalLoosers[2][1],
+		 totalLoosers[3][0], totalLoosers[3][1],
+		 totalLoosers[4][0], totalLoosers[4][1],
+		 
+		 ))
 		webPage.close()
 		
 		scriptFile = open("script.js", 'w')
 		scriptFile.write("""
-	img_array= new Array("endSem.png", "totalMrks.png", "midSem.png");
-	i=0;
-	function changeImg(){
-		document.getElementById("theImage").src=img_array[i];
-		i = (i + 1) % 3;
-	}""")
+			img_array= new Array("endSem.png", "totalMrks.png", "midSem.png");
+			i=0;
+			function changeImg(){
+				document.getElementById("theImage").src=img_array[i];
+				i = (i + 1) % 3;
+			}""")
 		
 		plt.bar(range(len(midSemList)), midSemList, align='center', width=.5)
 		plt.title('Mid Sem Marks Distrubution')
@@ -278,8 +411,7 @@ def calcSub(sub):
 
 def exportSubCSV(sub):
 	if sub.sbType == "PP":
-		fName = sub.sbKey + ".csv"
-		out = open( fName, 'w')
+		out = open( "excelExport.csv", 'w')
 		out.write("%s, %s, %s, %s, %s, %s\n" %("ExamId", "StudentName", "MidTerm", "EndTerm", "Total", "Pass"))
 		for st in sub.stus:
 			st[0] + ", " + st[1] + ", " + st[2][0] + ", " + st[2][1] + ", " + st[2][2] + ", " + st[3] 	
@@ -292,11 +424,12 @@ def createDirectoryStructure():
 		os.mkdir(branch)
 		os.chdir(branch)
 		for sub in subs:
-			os.mkdir(sub.sbKey)
-			os.chdir(sub.sbKey)
-			exportSubCSV(sub)
-			calcSub(sub)
-			os.chdir("..")
+			if sub.sbType == "PP":
+				os.mkdir(sub.sbKey)
+				os.chdir(sub.sbKey)
+				exportSubCSV(sub)
+				calcSub(sub)
+				os.chdir("..")
 		os.chdir("..")
 
 
