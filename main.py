@@ -212,8 +212,8 @@ def calcSub(sub):
 		totalToppers = sorted(totalMerit, key=lambda t: t[1], reverse=True)
 		totalLoosers = sorted(totalMerit, key=lambda t: t[1])
 				
-		for i in range(5):
-			print(totalToppers[i])
+#		for i in range(5):
+#			print(totalToppers[i])
 		
 		webPage = open("page.html", 'w')
 		webPage.write("""
@@ -226,11 +226,13 @@ def calcSub(sub):
 	<table>
 		<tr>
 			<td><h1> &nbsp </h1><td>
-			<td><img src="src/aitlogo2.gif" height="65" width="75" onclick="location.href='../../index.html'"></td>
+			<td><img src="../../src/aitlogo2.gif" height="65" width="75" onclick="location.href='../../index.html'"></td>
 			<td><h1> &nbsp&nbsp&nbsp </h1><td>
 			<td><button onclick="location.href='../home.html'"><b><h2> %s </h2></button></b></td>
-			<td><h1> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </h1><td>
-			<td><h1 align="center"> %s </h1><td>
+			<td><h1> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </h1></td>
+			<td><h1 align="center"> %s </h1></td>
+			<td><h1> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </h1></td>
+			<td><button onclick="location.href='excelExport.csv'"> Export to Excel </button></td>
 		<tr>
 	</table>
 	<table>	
@@ -322,7 +324,8 @@ def calcSub(sub):
 	</table>
 </body>
 </html>		
-		""" % ( (sub.sbBranch + sub.sbKey), sub.sbBranch, sub.sbKey,
+		""" % ( (
+		 sub.sbBranch + sub.sbKey), sub.sbBranch, sub.sbKey,
 		 str(stuPsnt + stuAbsent), str(stuPass), str(stuFail), str(stuAbsent),
 		 minMidSemMrks, maxMidSemMrks, midSemMrksSum / stuPsnt,
 		 minEndSemMrks, maxEndSemMrks, endSemMrksSum / stuPsnt,
@@ -410,19 +413,19 @@ def calcSub(sub):
 
 
 def exportSubCSV(sub):
-	if sub.sbType == "PP":
-		out = open( "excelExport.csv", 'w')
-		out.write("%s, %s, %s, %s, %s, %s\n" %("ExamId", "StudentName", "MidTerm", "EndTerm", "Total", "Pass"))
-		for st in sub.stus:
-			st[0] + ", " + st[1] + ", " + st[2][0] + ", " + st[2][1] + ", " + st[2][2] + ", " + st[3] 	
-			out.write("%s, %s, %s, %s, %s, %s\n" %(st[0], st[1], st[2][0], st[2][1], st[2][2], st[3]))
-		out.close()
+	out = open( "excelExport.csv", 'w')
+	out.write("%s, %s, %s, %s, %s, %s\n" %("ExamId", "StudentName", "MidTerm", "EndTerm", "Total", "Pass"))
+	for st in sub.stus:
+#		st[0] + ", " + st[1] + ", " + st[2][0] + ", " + st[2][1] + ", " + st[2][2] + ", " + st[3] 	
+		out.write("%s, %s, %s, %s, %s, %s\n" %(st[0], st[1], st[2][0], st[2][1], st[2][2], st[3]))
+	out.close()
 
 
 def createDirectoryStructure():
 	for branch, subs in branchDic.items():
 		os.mkdir(branch)
 		os.chdir(branch)
+		createHome(branch)
 		for sub in subs:
 			if sub.sbType == "PP":
 				os.mkdir(sub.sbKey)
@@ -433,11 +436,71 @@ def createDirectoryStructure():
 		os.chdir("..")
 
 
+def createIndex():
+	indexFile = open("index.html", 'w')
+	indexFile.write(
+	"""
+		<html>
+			<head>
+				<title> Result Analiazer Project </title>
+			</head>
+			<body>
+				<h1 align="center"> Welcome !!! </h1>
+				<table align="center">
+	"""
+	)
+	for b in branches:
+		indexFile.write("""
+				<tr><button onclick="location.href='%s/home.html'"><h3>%s</h3></button></tr>
+				"""
+				% (b, b))
+
+	indexFile.write(
+	"""
+				</table>
+			<body>
+		</html>
+	"""
+	)
+	indexFile.close()
+
+
+def createHome(branch):
+	indexFile = open("home.html", 'w')
+	indexFile.write(
+	"""
+		<html>
+			<head>
+				<title> Result Analiazer Project </title>
+			</head>
+			<body>
+				<h1 align="center"> Welcome !!! </h1>
+				<table align="center">
+	"""
+	)
+	for s in branchDic[branch]:
+		if s.sbType == "PP":
+			indexFile.write("""
+				<tr><button onclick="location.href='%s/page.html'"><h3>%s</h3></button></tr>
+				"""
+				% (s.sbKey, s.sbKey))
+
+	indexFile.write(
+	"""
+				</table>
+			<body>
+		</html>
+	"""
+	)
+	indexFile.close()
+	
+
 if __name__ == "__main__":
 	getInput()
 	getSub()
 	getStu()
 	fillBranches()
 	fillSub()
-	calcSub(subList[0])
-	#createDirectoryStructure()
+	#calcSub(subList[0])
+	createDirectoryStructure()
+	createIndex()
