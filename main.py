@@ -180,9 +180,9 @@ def calcSub(sub):
 				if maxMidSemMrks < midSemMrks: maxMidSemMrks = midSemMrks
 				if minMidSemMrks > midSemMrks: minMidSemMrks = midSemMrks
 				if maxEndSemMrks < endSemMrks: maxEndSemMrks = endSemMrks
-				if maxEndSemMrks > endSemMrks: maxMidSemMrks = midSemMrks
-				if maxTotalMrks < t: maxEndSemMrks = t
-				if maxTotalMrks > t: maxMidSemMrks = t
+				if minEndSemMrks > endSemMrks: minEndSemMrks = endSemMrks
+				if maxTotalMrks < t: maxTotalMrks = t
+				if minTotalMrks > t: minTotalmMrks = t
 				midSemMrksSum += midSemMrks
 				endSemMrksSum += endSemMrks
 				totalMrksSum += t
