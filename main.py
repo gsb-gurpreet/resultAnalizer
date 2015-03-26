@@ -1,11 +1,16 @@
+#!/usr/bin/python3
+
 import sys
+import os
+import matplotlib.pyplot as plt
+from avg import avg
 
 branch = 'branchless ;('
-branches = ['ELECTRONICS &TELECOM', 'MECHANICAL', 'COMPUTER', 'INFORMATIOM TECHNOLOGY']
+branches = ('ELECTRONICS &TELECOM', 'MECHANICAL', 'COMPUTER', 'INFORMATIOM TECHNOLOGY')
 blocks = []
 stuList = []
 subList = []
-branch_dic = {}
+branchDic = {}
 
 class Student:
 	def __init__(self, sId, sName, sBranch):
@@ -18,6 +23,7 @@ class Subject:
 		self.sbKey = sbKey
 		self.sbType = sbType
 		self.sbBranch = sbBranch
+
 
 def getInput():
 	test_cases = open(sys.argv[1], 'r')
@@ -47,13 +53,16 @@ def getSub():
 			subMrks = blocks[i][j][27:].split()
 			subType = subMrks[0]
 			subKey = subName + subType
+		#	Snatize the subject name		
+			if subKey == "COMP. N/W TECHNO.      PP":
+				subKey = "COMP. N-W TECHNO.      PP"
 			subBranch = blocks[i][len(blocks[i]) - 1]
 			for sub in subList:
 				if sub.sbKey == subKey:
 					subPsnt = 1
 			if not subPsnt == 1:
 				subList.append(Subject(subKey, subType, subBranch))
-			
+
 #	for s in subList:		
 #		print('subKey =', s.sbKey)
 
@@ -71,6 +80,9 @@ def getStu():
 			subMrks = blocks[i][j][27:].split()
 			subType = subMrks[0]
 			subKey = subName + subType
+		#	Snatize the subject name		
+			if subKey == "COMP. N/W TECHNO.      PP":
+				subKey = "COMP. N-W TECHNO.      PP"
 			sub = []
 			if subType == 'PP':
 				_, _, _, m, e, t, pf = subMrks	#7
@@ -98,14 +110,14 @@ def fillBranches():
 	for b in branches:
 		for s in subList:
 			if b == s.sbBranch:
-				temp.append(s.sbKey)
-		branch_dic[b] = temp
+				temp.append(s)
+		branchDic[b] = temp
 		temp = []
-#	print('branch_dic =\n\n')
-#	for b in branch_dic:
+#	print('branchDic =\n\n')
+#	for b in branchDic:
 #		print('branch = ', b)
-#		for s in branch_dic[b]:			
-#			print(s, '\t')
+#		for s in branchDic[b]:			
+#			print(s.sbKey, '\t')
 #		print('\n')
 
 
@@ -130,6 +142,7 @@ def fillSub():
 		students = []
 #	print(subList[0].sbKey, subList[0].sbType, subList[0].sbBranch, subList[0].students[0].sName)
 
+
 def calcSub(sub):
 	if sub.sbType == 'PP':
 		stuPass = 0
@@ -138,16 +151,19 @@ def calcSub(sub):
 		avgMidSemMrks = -1
 		avgEndSemMrks = -1
 		avgTotalMrks = -1
+		totalMidSemMrks = 0
+		totalEndSemMrks = 0
 		midSemList = [0] * 31
 		endSemList = [0] * 71
 		totalMrksList = [0] * 101
 		maxMidSemMrks = 0
-		minMidSemMrk0s = 30	
+		minMidSemMrk0s = 30
 		maxEndSemMrks = 0
 		minEndSemMrks = 70
 		for st in sub.stus:
-			if st[3][0].isdigit() and st[3][1].isdigit() and st[3][0] != "AA" and st[3][1] != "AA":
-				midSemMrks, endSemMrks = int(st[3][0]), int(st[3][1])
+			print(st[2][0], st[2][1])
+			if st[2][0].isdigit() and st[2][1].isdigit() and st[2][0] != "AA" and st[2][1] != "AA":
+				midSemMrks, endSemMrks = int(st[2][0]), int(st[2][1])
 				#result.write(midSemMrks, endSemMrks)
 				if ((midSemMrks + endSemMrks) >= 40) and (endSemMrks >= 28):
 					stuPass += 1
@@ -164,9 +180,51 @@ def calcSub(sub):
 		stuPsnt = stuPass + stuFail
 		avgMidSemMrks = totalMidSemMrks / stuPsnt
 		avgEndSemMrks = totalEndSemMrks / stuPsnt
+		result = open("summary.txt", 'w')
+		result.write("\tTotal Student : %s\n" % str(stuPsnt + stuAbsent))
+		result.write("\tStudents Pass : %s\n" % str(stuPass))
+		result.write("\tStudent Fail  : %s\n" % str(stuFail))
+		result.write("\tStudent Absent: %s\n" % str(stuAbsent))
+		result.write("\tMin Marks     : %s\n" % str(min(totalMrksList)))
+		result.write("\tMax Marks     : %s\n" % str(max(totalMrksList)))
+		result.write("\tAverage MidSemMrks : %5.2f\n" % avgMidSemMrks)
+		result.write("\tAverage EndSemMrks : %5.2f\n" % avgEndSemMrks)
+		result.write("\tAverage Marks      : %5.2f\n" % avg(totalMrksList))
+		result.write("\n\tMidSemList\n")
+		for i in range(31):
+			result.write("\t%s\t%s\n" %(str(i).rjust(4), str(midSemList[i]).rjust(4)))
+		result.write("\n\tEndSemList\n")
+		for i in range(71):
+			result.write("\t%s\t%s\n" %(str(i).rjust(4), str(endSemList[i]).rjust(4)))
+		result.write("\n\ttotalMrksList\n")
+		for i in range(101):
+			result.write("\t%s\t%s\n" %(str(i).rjust(4), str(totalMrksList[i]).rjust(4)))
+		result.write("- . "*30)
+		result.close()
+
+		
+		plt.bar(range(len(midSemList)), midSemList, align='center', width=.5)
+		plt.title('Mid Sem Marks Distrubution')
+		plt.xlabel('Marks')
+		plt.ylabel('No. of Students')
+		plt.savefig('midSem.png')
+		plt.close()
+		plt.bar(range(len(endSemList)), endSemList, align='center', width=.5)
+		plt.title('End Sem Marks Distrubution')
+		plt.xlabel('Marks')
+		plt.ylabel('No. of Students')
+		plt.savefig('endSem.png') 
+		plt.close()
+		plt.bar(range(len(totalMrksList)), totalMrksList, align='center', width=.5)
+		plt.title('Total Marks Distrubution')
+		plt.xlabel('Marks')
+		plt.ylabel('No. of Students')
+		plt.savefig('totalMrks.png') 
+		plt.close()
+
 	#elif sub.sbType == 'OR' or sub.sbType == 'PR' or sub.sbType == 'TW':
 	#	stuPass = -1
-	#	stuFail = -1
+	#	stuFail = -1 
 	#	stuAbsent = -1
 	#	avgMrks = -1
 	#	totalMrksList = [0] * 51
@@ -177,18 +235,30 @@ def calcSub(sub):
 		#for s in sub:
 	#print("NOTHING TO DO HERE")
 
-def eportSubCSV():
-	for sub in subList:
-		if sub.sbKey == "COMP. N/W TECHNO.      PP":
-			sub.sbKey = "COMP. N-W TECHNO.      PP"
-		if sub.sbType == "PP":
-			fName = sub.sbKey + ".csv"
-			out = open( fName, 'w')
-			out.write("%s, %s, %s, %s, %s, %s\n" %("ExamId", "StudentName", "MidTerm", "EndTerm", "Total", "Pass"))
-			for st in sub.stus:
-				st[0] + ", " + st[1] + ", " + st[2][0] + ", " + st[2][1] + ", " + st[2][2] + ", " + st[3] 	
-				out.write("%s, %s, %s, %s, %s, %s\n" %(st[0], st[1], st[2][0], st[2][1], st[2][2], st[3]))
-			out.close()
+
+def exportSubCSV(sub):
+	if sub.sbType == "PP":
+		fName = sub.sbKey + ".csv"
+		out = open( fName, 'w')
+		out.write("%s, %s, %s, %s, %s, %s\n" %("ExamId", "StudentName", "MidTerm", "EndTerm", "Total", "Pass"))
+		for st in sub.stus:
+			st[0] + ", " + st[1] + ", " + st[2][0] + ", " + st[2][1] + ", " + st[2][2] + ", " + st[3] 	
+			out.write("%s, %s, %s, %s, %s, %s\n" %(st[0], st[1], st[2][0], st[2][1], st[2][2], st[3]))
+		out.close()
+
+
+def createDirectoryStructure():
+	for branch, subs in branchDic.items():
+		os.mkdir(branch)
+		os.chdir(branch)
+		for sub in subs:
+			os.mkdir(sub.sbKey)
+			os.chdir(sub.sbKey)
+			exportSubCSV(sub)
+			calcSub(sub)
+			os.chdir("..")
+		os.chdir("..")
+
 
 if __name__ == "__main__":
 	getInput()
@@ -197,4 +267,4 @@ if __name__ == "__main__":
 	fillBranches()
 	fillSub()
 	#calcSub(subList[0])
-	eportSubCSV()
+	createDirectoryStructure()
