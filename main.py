@@ -182,7 +182,7 @@ def calcSub(sub):
 				if maxEndSemMrks < endSemMrks: maxEndSemMrks = endSemMrks
 				if minEndSemMrks > endSemMrks: minEndSemMrks = endSemMrks
 				if maxTotalMrks < t: maxTotalMrks = t
-				if minTotalMrks > t: minTotalmMrks = t
+				if minTotalMrks > t: minTotalMrks = t
 				midSemMrksSum += midSemMrks
 				endSemMrksSum += endSemMrks
 				totalMrksSum += t
@@ -203,16 +203,23 @@ def calcSub(sub):
 	<table>	
 	<tr>
 		<td><table>
+			<tr align="center" colspan="2"><td><b>Student Info	</b></td></tr>
 			<tr><td>Total Student</td>		<td>%s</td></tr>
 			<tr><td>Students Pass</td>		<td>%s</td></tr>
 			<tr><td>Student Fail</td>		<td>%s</td></tr> 
 			<tr><td>Student Absent</td>		<td>%s</td></tr>
+			<tr><td> &nbsp </td></tr>
+			<tr align="center" colspan="2"><td><b>Mid Semester	</b></td></tr>
 			<tr><td>Min MidSem Marks</td>		<td>%s</td></tr>
 			<tr><td>Max MidSem Marks</td>		<td>%s</td><tr>
 			<tr><td>Avg MidSem Marks</td>		<td>%.2f</td><tr>
+			<tr><td> &nbsp </td></tr>
+			<tr align="center" colspan="2"><td><b>End Semester	</b></td></tr>
 			<tr><td>Min EndSem Marks</td>		<td>%s</td><tr>
 			<tr><td>Max EndSem Marks</td>		<td>%s</td><tr>
 			<tr><td>Avg EndSem Marks</td>		<td>%.2f</td><tr>
+			<tr><td> &nbsp </td></tr>
+			<tr align="center" colspan="2"><td><b>Total Marks	</b></td></tr>
 			<tr><td>Min Total Marks</td>		<td>%s</td><tr>
 			<tr><td>Max Total Marks</td>		<td>%s</td><tr>
 			<tr><td>Avg Total Marks</td>		<td>%.2f</td><tr>
