@@ -225,9 +225,7 @@ def calcSub(sub):
 			<tr><td>Avg Total Marks</td>		<td>%.2f</td><tr>
 		</table></td>
 		<td><table>
-			<tr><td><button onclick="changeImgLeft()"> < </button></td>
-			<td><img id="theImage" src="midSem.png"></img></td>
-			<td><button onclick="changeImgRight()"> > </button></td></tr>
+			<td><img id="theImage" src="midSem.png" onclick="changeImg()"></img></td>
 		</table></td>
 	</tr>
 	</table>
@@ -240,11 +238,7 @@ def calcSub(sub):
 		scriptFile.write("""
 	img_array= new Array("endSem.png", "totalMrks.png", "midSem.png");
 	i=0;
-	function changeImgLeft(){
-		document.getElementById("theImage").src=img_array[i];
-		i = (i + 2) % 3;
-	}
-	function changeImgRight(){
+	function changeImg(){
 		document.getElementById("theImage").src=img_array[i];
 		i = (i + 1) % 3;
 	}""")
