@@ -162,9 +162,10 @@ def calcSub(sub):
 		avgTotalMrks	= -1
 		midSemMrksSum	= 0
 		endSemMrksSum	= 0
+		totalMrksSum	= 0
 		
 		for st in sub.stus:
-			print(st[2][0], st[2][1])
+#			print(st[2][0], st[2][1])
 			if st[2][0].isdigit() and st[2][1].isdigit() and st[2][0] != "AA" and st[2][1] != "AA":
 				midSemMrks, endSemMrks = int(st[2][0]), int(st[2][1])
 				#result.write(midSemMrks, endSemMrks)
@@ -184,6 +185,7 @@ def calcSub(sub):
 				if maxTotalMrks > t: maxMidSemMrks = t
 				midSemMrksSum += midSemMrks
 				endSemMrksSum += endSemMrks
+				totalMrksSum += t
 			else:
 				stuAbsent += 1
 
@@ -193,20 +195,27 @@ def calcSub(sub):
 		webPage.write("""
 <html>
 <head>
-	<title>Digital Communictaion</title>
+	<title> %s </title>
 	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-	<h1 align="center"> Digital Communication </h1>
+	<h1 align="center"> %s </h1>
 	<table>	
 	<tr>
 		<td><table>
-			<tr><td>Total Student</td>	<td>%s</td></tr>
-			<tr><td>Students Pass</td>	<td>%s</td></tr>
-			<tr><td>Student Fail</td>	<td>%s</td></tr> 
-			<tr><td>Student Absent</td>	<td>%s</td></tr>
-			<tr><td>Min Marks</td>		<td>%s</td></tr>
-			<tr><td>Max Marks</td>		<td>%s</td><tr>
+			<tr><td>Total Student</td>		<td>%s</td></tr>
+			<tr><td>Students Pass</td>		<td>%s</td></tr>
+			<tr><td>Student Fail</td>		<td>%s</td></tr> 
+			<tr><td>Student Absent</td>		<td>%s</td></tr>
+			<tr><td>Min MidSem Marks</td>		<td>%s</td></tr>
+			<tr><td>Max MidSem Marks</td>		<td>%s</td><tr>
+			<tr><td>Avg MidSem Marks</td>		<td>%.2f</td><tr>
+			<tr><td>Min EndSem Marks</td>		<td>%s</td><tr>
+			<tr><td>Max EndSem Marks</td>		<td>%s</td><tr>
+			<tr><td>Avg EndSem Marks</td>		<td>%.2f</td><tr>
+			<tr><td>Min Total Marks</td>		<td>%s</td><tr>
+			<tr><td>Max Total Marks</td>		<td>%s</td><tr>
+			<tr><td>Avg Total Marks</td>		<td>%.2f</td><tr>
 		</table></td>
 		<td><table>
 			<tr><td><button onclick="changeImgLeft()"> < </button></td>
@@ -217,7 +226,7 @@ def calcSub(sub):
 	</table>
 </body>
 </html>		
-		""" % (str(stuPsnt + stuAbsent), str(stuPass), str(stuFail), str(stuAbsent), minMidSemMrks, maxMidSemMrks))
+		""" % ( sub.sbBranch, sub.sbKey, str(stuPsnt + stuAbsent), str(stuPass), str(stuFail), str(stuAbsent), minMidSemMrks, maxMidSemMrks, midSemMrksSum / stuPsnt, minEndSemMrks, maxEndSemMrks, endSemMrksSum / stuPsnt, minTotalMrks, maxTotalMrks, totalMrksSum / stuPsnt))
 		webPage.close()
 		
 		scriptFile = open("script.js", 'w')
