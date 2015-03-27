@@ -231,7 +231,7 @@ def calcSub(sub):
 			<td><button onclick="location.href='../home.html'"><b><h2> %s </h2></button></b></td>
 			<td><h1> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </h1></td>
 			<td><h1 align="center"> %s </h1></td>
-			<td><h1> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </h1></td>
+			<td><h1> &nbsp&nbsp </h1></td>
 			<td><button onclick="location.href='excelExport.csv'"> Export to Excel </button></td>
 		<tr>
 	</table>
@@ -267,7 +267,12 @@ def calcSub(sub):
 		<td>
 		<div style="height:524px;width:250px;overflow:auto;">
 			<table>
-				<tr><td align='center'colspan='2'><b> Mid Sem Top 5 </b></td><tr>
+				<tr><td align='center'colspan='2'><b> Mid Sem Top 10 </b></td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
 				<tr><td> %s </td> <td> %s </td><tr>
 				<tr><td> %s </td> <td> %s </td><tr>
 				<tr><td> %s </td> <td> %s </td><tr>
@@ -276,7 +281,12 @@ def calcSub(sub):
 			</table>
 				<br>
 			<table>
-				<tr><td align='center'colspan='2'><b> Mid Sem Low 5 </b></td><tr>
+				<tr><td align='center'colspan='2'><b> Mid Sem Low 10 </b></td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
 				<tr><td> %s </td> <td> %s </td><tr>
 				<tr><td> %s </td> <td> %s </td><tr>
 				<tr><td> %s </td> <td> %s </td><tr>
@@ -285,7 +295,12 @@ def calcSub(sub):
 			</table>
 				<br>
 			<table>
-				<tr><td align='center'colspan='2'><b> End Sem Top 5 </b></td><tr>
+				<tr><td align='center'colspan='2'><b> End Sem Top 10 </b></td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
 				<tr><td> %s </td> <td> %s </td><tr>
 				<tr><td> %s </td> <td> %s </td><tr>
 				<tr><td> %s </td> <td> %s </td><tr>
@@ -294,21 +309,33 @@ def calcSub(sub):
 			</table>
 				<br>
 			<table>
-				<tr><td align='center'colspan='2'><b> End Sem Low 5 </b></td><tr>
+				<tr><td align='center'colspan='2'><b> End Sem Low 10 </b></td><tr>
 				<tr><td> %s </td> <td> %s </td><tr>
 				<tr><td> %s </td> <td> %s </td><tr>
 				<tr><td> %s </td> <td> %s </td><tr>
 				<tr><td> %s </td> <td> %s </td><tr>
 				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+
 			</table>
 				<br>
 			<table>
-				<tr><td align='center'colspan='2'><b> Total Top 5 </b></td><tr>
+				<tr><td align='center'colspan='2'><b> Total Top 10 </b></td><tr>
 				<tr><td> %s </td> <td> %s </td><tr>
 				<tr><td> %s </td> <td> %s </td><tr>
 				<tr><td> %s </td> <td> %s </td><tr>
 				<tr><td> %s </td> <td> %s </td><tr>
 				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+
 			</table>
 				<br>
 			<table>
@@ -318,6 +345,12 @@ def calcSub(sub):
 				<tr><td> %s </td> <td> %s </td><tr>
 				<tr><td> %s </td> <td> %s </td><tr>
 				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+				<tr><td> %s </td> <td> %s </td><tr>
+
 			</table>
 		</td>
 	</tr>
@@ -336,36 +369,66 @@ def calcSub(sub):
 		 midSemToppers[2][0], midSemToppers[2][1],
 		 midSemToppers[3][0], midSemToppers[3][1],
 		 midSemToppers[4][0], midSemToppers[4][1],
+		 midSemToppers[5][0], midSemToppers[5][1],
+		 midSemToppers[6][0], midSemToppers[6][1],
+		 midSemToppers[7][0], midSemToppers[7][1],
+		 midSemToppers[8][0], midSemToppers[8][1],
+		 midSemToppers[9][0], midSemToppers[9][1],
 
 		 midSemLoosers[0][0], midSemLoosers[0][1],
 		 midSemLoosers[1][0], midSemLoosers[1][1],
 		 midSemLoosers[2][0], midSemLoosers[2][1],
 		 midSemLoosers[3][0], midSemLoosers[3][1],
 		 midSemLoosers[4][0], midSemLoosers[4][1],
+		 midSemLoosers[5][0], midSemLoosers[5][1],
+		 midSemLoosers[6][0], midSemLoosers[6][1],
+		 midSemLoosers[7][0], midSemLoosers[7][1],
+		 midSemLoosers[8][0], midSemLoosers[8][1],
+		 midSemLoosers[9][0], midSemLoosers[9][1],
 		 
 		 endSemToppers[0][0], endSemToppers[0][1],
 		 endSemToppers[1][0], endSemToppers[1][1],
 		 endSemToppers[2][0], endSemToppers[2][1],
 		 endSemToppers[3][0], endSemToppers[3][1],
 		 endSemToppers[4][0], endSemToppers[4][1],
+		 endSemToppers[5][0], endSemToppers[5][1],
+		 endSemToppers[6][0], endSemToppers[6][1],
+		 endSemToppers[7][0], endSemToppers[7][1],
+		 endSemToppers[8][0], endSemToppers[8][1],
+		 endSemToppers[9][0], endSemToppers[9][1],
 
 		 endSemLoosers[0][0], endSemLoosers[0][1],
 		 endSemLoosers[1][0], endSemLoosers[1][1],
 		 endSemLoosers[2][0], endSemLoosers[2][1],
 		 endSemLoosers[3][0], endSemLoosers[3][1],
 		 endSemLoosers[4][0], endSemLoosers[4][1],
+		 endSemLoosers[5][0], endSemLoosers[5][1],
+		 endSemLoosers[6][0], endSemLoosers[6][1],
+		 endSemLoosers[7][0], endSemLoosers[7][1],
+		 endSemLoosers[8][0], endSemLoosers[8][1],
+		 endSemLoosers[9][0], endSemLoosers[9][1],
 		 
 		 totalToppers[0][0], totalToppers[0][1],
 		 totalToppers[1][0], totalToppers[1][1],
 		 totalToppers[2][0], totalToppers[2][1],
 		 totalToppers[3][0], totalToppers[3][1],
 		 totalToppers[4][0], totalToppers[4][1],
+		 totalToppers[5][0], totalToppers[5][1],
+		 totalToppers[6][0], totalToppers[6][1],
+		 totalToppers[7][0], totalToppers[7][1],
+		 totalToppers[8][0], totalToppers[8][1],
+		 totalToppers[9][0], totalToppers[9][1],
 
 		 totalLoosers[0][0], totalLoosers[0][1],
 		 totalLoosers[1][0], totalLoosers[1][1],
 		 totalLoosers[2][0], totalLoosers[2][1],
 		 totalLoosers[3][0], totalLoosers[3][1],
 		 totalLoosers[4][0], totalLoosers[4][1],
+		 totalLoosers[5][0], totalLoosers[5][1],
+		 totalLoosers[6][0], totalLoosers[6][1],
+		 totalLoosers[7][0], totalLoosers[7][1],
+		 totalLoosers[8][0], totalLoosers[8][1],
+		 totalLoosers[9][0], totalLoosers[9][1],
 		 
 		 ))
 		webPage.close()
@@ -413,6 +476,7 @@ def calcSub(sub):
 
 
 def exportSubCSV(sub):
+	print(" -", end='')
 	out = open( "excelExport.csv", 'w')
 	out.write("%s, %s, %s, %s, %s, %s\n" %("ExamId", "StudentName", "MidTerm", "EndTerm", "Total", "Pass"))
 	for st in sub.stus:
@@ -426,13 +490,21 @@ def createDirectoryStructure():
 		os.mkdir(branch)
 		os.chdir(branch)
 		createHome(branch)
+		print("###\t",branch)
 		for sub in subs:
 			if sub.sbType == "PP":
+				print(" -")
 				os.mkdir(sub.sbKey)
+				print(" -")
 				os.chdir(sub.sbKey)
+				print(" -")
 				exportSubCSV(sub)
+				print(" -")
 				calcSub(sub)
+				print(" -")
 				os.chdir("..")
+				print(" -")
+		print("\n")
 		os.chdir("..")
 
 
