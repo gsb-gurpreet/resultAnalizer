@@ -163,7 +163,7 @@ def calcSub(sub):
 		midSemMrksSum	= 0
 		endSemMrksSum	= 0
 		totalMrksSum	= 0
-		
+		print(sub.sbKey)
 		for st in sub.stus:
 #			print(st[2][0], st[2][1])
 			if st[2][0].isdigit() and st[2][1].isdigit() and st[2][0] != "AA" and st[2][1] != "AA":
@@ -476,7 +476,6 @@ def calcSub(sub):
 
 
 def exportSubCSV(sub):
-	print(" -", end='')
 	out = open( "excelExport.csv", 'w')
 	out.write("%s, %s, %s, %s, %s, %s\n" %("ExamId", "StudentName", "MidTerm", "EndTerm", "Total", "Pass"))
 	for st in sub.stus:
@@ -486,24 +485,20 @@ def exportSubCSV(sub):
 
 
 def createDirectoryStructure():
+	print("Result Analysis on roll : \n")
 	for branch, subs in branchDic.items():
 		os.mkdir(branch)
 		os.chdir(branch)
 		createHome(branch)
-		print("###\t",branch)
+		print("###\t", branch, '\n')
 		for sub in subs:
 			if sub.sbType == "PP":
-				print(" -")
+				print("\t*\t", end = '')
 				os.mkdir(sub.sbKey)
-				print(" -")
 				os.chdir(sub.sbKey)
-				print(" -")
 				exportSubCSV(sub)
-				print(" -")
 				calcSub(sub)
-				print(" -")
 				os.chdir("..")
-				print(" -")
 		print("\n")
 		os.chdir("..")
 
@@ -518,7 +513,8 @@ def createIndex():
 			</head>
 			<body>
 				<h1 align="center"> Welcome !!! </h1>
-				<table align="center">
+				<div align="center">
+				<table>
 	"""
 	)
 	for b in branches:
@@ -530,6 +526,7 @@ def createIndex():
 	indexFile.write(
 	"""
 				</table>
+				</div>
 			<body>
 		</html>
 	"""
@@ -547,7 +544,8 @@ def createHome(branch):
 			</head>
 			<body>
 				<h1 align="center"> Welcome !!! </h1>
-				<table align="center">
+				<div align="center">
+				<table>
 	"""
 	)
 	for s in branchDic[branch]:
@@ -560,6 +558,7 @@ def createHome(branch):
 	indexFile.write(
 	"""
 				</table>
+				</div>
 			<body>
 		</html>
 	"""
