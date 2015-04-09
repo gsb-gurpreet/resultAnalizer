@@ -9,9 +9,9 @@ To view the output webSite :
 
 	-	Download this repository from https://github.com/gsb-gurpreet/resultAnalyzer/archive/master.zip
 
-	-	Extract the contents of master.zip 
+	-	Extract the contents of resultAnalyzer-master.zip	(Extract here)
 
-	-	Open index.html with web browser (I use Chrome) from resultAnalyser folder
+	-	Open index.html with web browser (It has been tested on Chrome) from resultAnalyser-master folder
 
 
 
