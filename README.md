@@ -1,11 +1,19 @@
 resultAnalizer
+
 To run on terminal :
+
 	$ python3 main.py TE.txt
 
+
 To view the output webSite :
+
 	-	Download this repository from https://github.com/gsb-gurpreet/resultAnalyzer/archive/master.zip
+
 	-	Extract the contents of master.zip 
+
 	-	Open index.html with web browser (I use Chrome) from resultAnalyser folder
+
+
 
 For Legacy Code
 
