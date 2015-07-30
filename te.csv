@@ -1,0 +1,329 @@
+Mechanical
+
+student_name, perma_reg_num, 302041 PPoe_marks, 302041 PPth_marks, 302041 PPobtained_marks, 302041 PPis_pass, 302041 TWobtained_marks, 302041 TWis_pass, 302042 PPoe_marks, 302042 PPth_marks, 302042 PPobtained_marks, 302042 PPis_pass, 302042 PRobtained_marks, 302042 PRis_pass, 302043 PPoe_marks, 302043 PPth_marks, 302043 PPobtained_marks, 302043 PPis_pass, 302043 ORobtained_marks, 302043 ORis_pass, 302044 PPoe_marks, 302044 PPth_marks, 302044 PPobtained_marks, 302044 PPis_pass, 302044 ORobtained_marks, 302044 ORis_pass, 302045 PPoe_marks, 302045 PPth_marks, 302045 PPobtained_marks, 302045 PPis_pass, 302045 TWobtained_marks, 302045 TWis_pass, 302046 TWobtained_marks, 302046 TWis_pass, total_marks
+A K Taxak, 71307234C, 16, 34, 50, True, 19, True, 13, 30, 43, True, 39, True, 16, 43, 59, True, 39, True, 15, 48, 63, True, 39, True, 19, 40, 59, True, 20, True, 40, True, 470
+Abhay Kumar Pandey, 71307237H, 18, 31, 49, True, 22, True, 21, 57, 78, True, 44, True, 21, 44, 65, True, 35, True, 23, 57, 80, True, 39, True, 23, 49, 72, True, 20, True, 39, True, 543
+Akram Khan, 71307257B, 14, 28, 42, True, 14, True, 21, 43, 64, True, 35, True, 11, 33, 44, True, 32, True, 15, 33, 48, True, 25, True, 25, 33, 58, True, 17, True, 36, True, 415
+Anand Prakash Tripathi, 71307267K, 10, 30, 40, True, 21, True, 13, 48, 61, True, 35, True, 11, 30, 41, True, 36, True, 21, 46, 67, True, 37, True, 21, 36, 57, True, 20, True, 39, True, 454
+Ankit Kushwaha, 71307276J, 19, 28, 47, True, 22, True, 10, 30, 40, True, 38, True, 14, 34, 48, True, 25, True, 17, 42, 59, True, 36, True, 19, 38, 57, True, 19, True, 40, True, 431
+Ashish Gulia, 71307288B, 17, 9, 26, False, 21, True, 22, 56, 78, True, 40, True, 19, 28, 47, True, 38, True, 18, 45, 63, True, 38, True, 25, 44, 69, True, 20, True, 40, True, 480
+Ashutosh Kumar Singh, 71307292L, 17, 13, 30, False, 18, True, 10, 37, 47, True, 32, True, 17, 41, 58, True, 5, False, 17, 53, 70, True, 38, True, 25, 44, 69, True, 16, True, 37, True, 420
+Ashutosh Tyagi, 71307294G, 17, 15, 32, False, 17, True, 16, 48, 64, True, 32, True, 14, 42, 56, True, 24, True, 13, 49, 62, True, 33, True, 14, 36, 50, True, 19, True, 35, True, 424
+Bhagwan Prasad Mishra, 71307304H, 20, 38, 58, True, 19, True, 26, 61, 87, True, 38, True, 14, 47, 61, True, 35, True, 22, 55, 77, True, 41, True, 26, 41, 67, True, 19, True, 41, True, 543
+Bhanu Pratap Singh Bhad, 71307305F, 16, 14, 30, False, 18, True, 12, 41, 53, True, 36, True, 19, 28, 47, True, 25, True, 18, 47, 65, True, 36, True, 20, 29, 49, True, 19, True, 40, True, 418
+Bhupender Singh Chauhan, 71307306D, 16, 28, 44, True, 18, True, 9, 39, 48, True, 36, True, 19, 44, 63, True, 27, True, 17, 53, 70, True, 33, True, 20, 37, 57, True, 14, True, 38, True, 448
+Bhuwanesh Kumar, 71307308L, 15, 32, 47, True, 21, True, 29, 60, 89, True, 41, True, 22, 42, 64, True, 37, True, 19, 55, 74, True, 39, True, 15, 53, 68, True, 21, True, 41, True, 542
+Bittu Kumar Pathak, 71307310B, 16, 28, 44, True, 16, True, 23, 59, 82, True, 42, True, 16, 40, 56, True, 39, True, 23, 50, 73, True, 38, True, 26, 42, 68, True, 19, True, 40, True, 517
+Bunti Rana, 71307311L, 18, 37, 55, True, 20, True, 24, 60, 84, True, 42, True, 25, 55, 80, True, 40, True, 23, 51, 74, True, 36, True, 23, 51, 74, True, 19, True, 43, True, 567
+Chandra Prakash, 71307313G, 21, 28, 49, True, 20, True, 22, 58, 80, True, 44, True, 15, 40, 55, True, 38, True, 20, 55, 75, True, 41, True, 22, 47, 69, True, 20, True, 42, True, 533
+Chary Aditya Muralidhar, 71307315C, 15, 33, 48, True, 22, True, 26, 52, 78, True, 38, True, 22, 45, 67, True, 29, True, 14, 51, 65, True, 42, True, 19, 43, 62, True, 22, True, 42, True, 515
+David Callisto Valentin, 71307318H, 13, 29, 42, True, 18, True, 9, 33, 42, True, 40, True, 22, 36, 58, True, 35, True, 19, 51, 70, True, 40, True, 23, 48, 71, True, 18, True, 41, True, 475
+Deepak Papola, 71307320K, 17, 28, 45, True, 20, True, 24, 39, 63, True, 39, True, 19, 34, 53, True, 30, True, 17, 47, 64, True, 34, True, 23, 41, 64, True, 20, True, 37, True, 469
+Devesh Kumar Gour, 71307322F, 22, 40, 62, True, 17, True, 8, 52, 60, True, 41, True, 26, 43, 69, True, 41, True, 15, 57, 72, True, 40, True, 20, 56, 76, True, 18, True, 43, True, 539
+Eshan Tripathi, 71307328E, 14, 16, 30, False, 20, True, 11, 40, 51, True, 32, True, 20, 37, 57, True, 35, True, 13, 47, 60, True, 40, True, 19, 43, 62, True, 13, True, 39, True, 439
+Gauhar Iqbal, 71307329C, 18, 12, 30, False, 19, True, 26, 53, 79, True, 34, True, 23, 28, 51, True, 36, True, 15, 51, 66, True, 38, True, 24, 48, 72, True, 21, True, 39, True, 485
+Ghule Somnath Suresh, 71310644B, 20, 28, 48, True, 18, True, 10, 33, 43, True, 38, True, 11, 37, 48, True, 35, True, 12, 42, 54, True, 37, True, 21, 31, 52, True, 20, True, 32, True, 425
+Himanshu Rai, 71307343J, 20, 28, 48, True, 16, True, 14, 45, 59, True, 37, True, 18, 36, 54, True, 37, True, 15, 49, 64, True, 37, True, 20, 43, 63, True, 17, True, 37, True, 469
+Indrajeet Singh, 71206656L, 14, 5, 19, False, 15, True, 6, 20, 26, False, 32, True, 15, 1, 16, False, 5, False, 6, 4, 10, False, 12, False, 6, 34, 40, True, 15, True, 24, True, 214
+Jagdish Jakhar, 71307344G, 22, 31, 53, True, 21, True, 15, 46, 61, True, 37, True, 17, 39, 56, True, 38, True, 12, 50, 62, True, 38, True, 20, 39, 59, True, 18, True, 43, True, 486
+Jitesh Suyal, 71307351K, 11, 29, 40, True, 18, True, 9, 44, 53, True, 33, True, 10, 30, 40, True, 28, True, 12, 43, 55, True, 32, True, 17, 32, 49, True, 19, True, 35, True, 402
+Krishan Kumar Yadav, 71307361G, 16, 31, 47, True, 18, True, 8, 53, 61, True, 37, True, 22, 33, 55, True, 36, True, 22, 44, 66, True, 38, True, 20, 36, 56, True, 19, True, 38, True, 471
+Mandeep Kumar, 71307374J, 15, 28, 43, True, 16, True, 18, 32, 50, True, 30, True, 22, 22, 44, False, 25, True, 20, 41, 61, True, 32, True, 16, 40, 56, True, 21, True, 38, True, 416
+Maneet Kumar, 71307375G, 19, 28, 47, True, 22, True, 11, 49, 60, True, 32, True, 19, 33, 52, True, 23, True, 20, 46, 66, True, 32, True, 18, 36, 54, True, 21, True, 38, True, 447
+Naveen Kumar Singh, 71307389G, 22, 36, 58, True, 20, True, 13, 50, 63, True, 37, True, 23, 51, 74, True, 38, True, 19, 46, 65, True, 36, True, 21, 54, 75, True, 20, True, 40, True, 526
+Niraj Kumar, 71307396K, 18, 28, 46, True, 21, True, 9, 49, 58, True, 34, True, 20, 32, 52, True, 38, True, 12, 29, 41, True, 36, True, 16, 51, 67, True, 18, True, 38, True, 449
+Nivedita Dutta, 71307398F, 16, 15, 31, False, 14, True, 18, 39, 57, True, 32, True, 19, 51, 70, True, 32, True, 20, 47, 67, True, 35, True, 15, 39, 54, True, 15, True, 42, True, 449
+P Krishna Kishore, 71307400M, 23, 42, 65, True, 18, True, 15, 61, 76, True, 41, True, 24, 48, 72, True, 41, True, 23, 54, 77, True, 40, True, 16, 36, 52, True, 18, True, 42, True, 542
+Pankaj Kumar Tiwari, 71307401K, 15, 32, 47, True, 19, True, 21, 52, 73, True, 36, True, 24, 47, 71, True, 39, True, 22, 53, 75, True, 32, True, 18, 39, 57, True, 21, True, 41, True, 511
+Pawan Kumar Singh, 71307407J, 17, 32, 49, True, 18, True, 13, 41, 54, True, 32, True, 15, 38, 53, True, 38, True, 21, 47, 68, True, 39, True, 18, 28, 46, True, 20, True, 40, True, 457
+Prabhakar Kumar, 71307411G, 17, 38, 55, True, 20, True, 21, 59, 80, True, 38, True, 23, 40, 63, True, 35, True, 23, 46, 69, True, 33, True, 22, 39, 61, True, 22, True, 37, True, 513
+Praveen Kumar Tiwari, 71307420F, 23, 28, 51, True, 21, True, 24, 47, 71, True, 37, True, 24, 47, 71, True, 40, True, 23, 44, 67, True, 35, True, 14, 38, 52, True, 20, True, 42, True, 507
+Rahul Raj, 71307431M, 23, 54, 77, True, 22, True, 25, 54, 79, True, 37, True, 20, 38, 58, True, 42, True, 21, 41, 62, True, 40, True, 23, 42, 65, True, 19, True, 39, True, 540
+Rakesh Kumar Kuwar, 71307440L, 17, 52, 69, True, 19, True, 24, 50, 74, True, 38, True, 24, 44, 68, True, 39, True, 16, 36, 52, True, 33, True, 19, 46, 65, True, 18, True, 40, True, 515
+Ravi Kumar, 71307444C, 12, 29, 41, True, 18, True, 10, 39, 49, True, 38, True, 18, 34, 52, True, 30, True, 17, 28, 45, True, 30, True, 15, 34, 49, True, 20, True, 41, True, 413
+Rilif K Chandrakant, 71307445M, 14, 33, 47, True, 20, True, 13, 44, 57, True, 37, True, 23, 38, 61, True, 40, True, 19, 35, 54, True, 34, True, 17, 38, 55, True, 20, True, 38, True, 463
+Rizwan Khan, 71307449D, 19, 55, 74, True, 19, True, 12, 43, 55, True, 41, True, 18, 35, 53, True, 40, True, 21, 39, 60, True, 40, True, 17, 45, 62, True, 20, True, 44, True, 508
+Rohit Chauhan, 71307451F, 16, 43, 59, True, 16, True, 20, 45, 65, True, 38, True, 16, 32, 48, True, 25, True, 16, 31, 47, True, 28, True, 17, 39, 56, True, 20, True, 40, True, 442
+Rohit Kumar, 71307452D, 15, 38, 53, True, 21, True, 18, 52, 70, True, 41, True, 16, 33, 49, True, 37, True, 22, 40, 62, True, 30, True, 21, 46, 67, True, 22, True, 41, True, 493
+Rohit Kumar Bijarnia, 71307454L, 13, 45, 58, True, 20, True, 21, 40, 61, True, 32, True, 14, 28, 42, True, 5, False, 12, 23, 35, False, 28, True, 8, 42, 50, True, 18, True, 34, True, 383
+Rohit Kumar Thakur, 71307455J, 24, 32, 56, True, 22, True, 18, 49, 67, True, 36, True, 21, 28, 49, True, 42, True, 19, 34, 53, True, 41, True, 21, 34, 55, True, 20, True, 41, True, 482
+Saurabh, 71307472J, 13, 28, 41, True, 16, True, 16, 37, 53, True, 34, True, 22, 23, 45, False, 30, True, 19, 32, 51, True, 30, True, 18, 38, 56, True, 19, True, 34, True, 409
+Saurabh Sharma, 71050733L, 8, 7, 15, False, 20, True, 12, 14, 26, False, 39, True, 13, 17, 30, False, 28, True, 1, 24, 25, False, 30, True, 4, 32, 36, False, 20, True, 32, True, 301
+Sawant Singh, 71307473G, 19, 46, 65, True, 21, True, 27, 68, 95, True, 44, True, 25, 42, 67, True, 42, True, 26, 39, 65, True, 44, True, 22, 46, 68, True, 22, True, 36, True, 569
+Sharveswar Goswami, 71307477k, 11, 32, 43, True, 20, True, 11, 43, 54, True, 30, True, 18, 30, 48, True, 31, True, 15, 31, 46, True, 30, True, 14, 46, 60, True, 18, True, 34, True, 414
+Shaurya Samriddh Sinha, 71307479F, 16, 35, 51, True, 21, True, 9, 43, 52, True, 34, True, 18, 38, 56, True, 30, True, 22, 35, 57, True, 32, True, 19, 34, 53, True, 19, True, 41, True, 446
+Sonu Yadav, 71307489C, 13, 33, 46, True, 21, True, 13, 37, 50, True, 28, True, 23, 33, 56, True, 38, True, 16, 28, 44, True, 31, True, 24, 34, 58, True, 19, True, 40, True, 431
+Sooraj Kumar, 71307490G, 15, 39, 54, True, 18, True, 14, 37, 51, True, 32, True, 21, 28, 49, True, 36, True, 22, 31, 53, True, 31, True, 14, 40, 54, True, 20, True, 36, True, 434
+Sudhanshu Sharma, 71307494K, 12, 38, 50, True, 20, True, 20, 47, 67, True, 35, True, 20, 33, 53, True, 35, True, 23, 29, 52, True, 31, True, 17, 48, 65, True, 20, True, 44, True, 472
+Sunil Kumar, 71307497D, 9, 31, 40, True, 20, True, 6, 10, 16, False, 25, True, 12, 0, 12, False, 27, True, 21, 30, 51, True, 34, True, 18, 30, 48, True, 19, True, 32, True, 324
+Suresh Kumar Choudhary, 71307501F, 16, 42, 58, True, 22, True, 10, 48, 58, True, 28, True, 17, 32, 49, True, 34, True, 19, 39, 58, True, 30, True, 22, 44, 66, True, 20, True, 39, True, 462
+Tushar Singh, 71307505J, 13, 30, 43, True, 22, True, 14, 41, 55, True, 38, True, 22, 28, 50, True, 28, True, 12, 28, 40, True, 25, True, 15, 29, 44, True, 19, True, 40, True, 404
+Vinayak Kumar Yadav, 71307519J, 17, 39, 56, True, 20, True, 15, 35, 50, True, 35, True, 23, 36, 59, True, 41, True, 24, 29, 53, True, 36, True, 17, 42, 59, True, 15, True, 41, True, 465
+Virendra Singh, 71307526M, 21, 49, 70, True, 20, True, 15, 60, 75, True, 29, True, 24, 45, 69, True, 32, True, 23, 32, 55, True, 38, True, 19, 46, 65, True, 12, True, 42, True, 507
+Vivek Kumar Singh, 71206843M, 12, 39, 51, True, 20, True, 11, 29, 40, True, 27, True, 22, 28, 50, True, 27, True, 9, 25, 34, False, 30, True, 13, 28, 41, True, 16, True, 39, True, 375
+Yogesh Bhatt, 71322183G, 16, 37, 53, True, 19, True, 13, 46, 59, True, 38, True, 5, 35, 40, True, 30, True, 22, 28, 50, True, 40, True, 14, 38, 52, True, 20, True, 39, True, 440
+Zain Iqbal, 71307533D, 21, 41, 62, True, 19, True, 19, 45, 64, True, 36, True, 23, 33, 56, True, 32, True, 20, 34, 54, True, 38, True, 19, 41, 60, True, 16, True, 36, True, 473
+
+
+Electronics &telecom
+
+student_name, perma_reg_num, 304181 PPoe_marks, 304181 PPth_marks, 304181 PPobtained_marks, 304181 PPis_pass, 304182 PPoe_marks, 304182 PPth_marks, 304182 PPobtained_marks, 304182 PPis_pass, 304183 PPoe_marks, 304183 PPth_marks, 304183 PPobtained_marks, 304183 PPis_pass, 304184 PPoe_marks, 304184 PPth_marks, 304184 PPobtained_marks, 304184 PPis_pass, 304185 PPoe_marks, 304185 PPth_marks, 304185 PPobtained_marks, 304185 PPis_pass, 304186 TWobtained_marks, 304186 TWis_pass, 304186 PRobtained_marks, 304186 PRis_pass, 304187 TWobtained_marks, 304187 TWis_pass, 304187 PRobtained_marks, 304187 PRis_pass, 304188 ORobtained_marks, 304188 ORis_pass, total_marks
+Aakash Upadhyay, 71307235M, 21, 28, 49, True, 24, 36, 60, True, 23, 28, 51, True, 23, 28, 51, True, 17, 41, 58, True, 41, True, 35, True, 42, True, 36, True, 40, True, 463
+Abhilasha Chauhan, 71310500D, 19, 28, 47, True, 25, 37, 62, True, 18, 32, 50, True, 7, 24, 31, False, 16, 39, 55, True, 45, True, 40, True, 47, True, 38, True, 38, True, 453
+Abhimanyu Bhatia, 71307238F, 7, 5, 12, False, 15, 28, 43, True, 12, 9, 21, False, 12, 5, 17, False, 7, 24, 31, False, 25, True, 12, False, 29, True, 9, False, 29, True, 228
+Abhishek Mishra, 71307241F, 12, 28, 40, True, 16, 33, 49, True, 18, 28, 46, True, 12, 30, 42, True, 12, 43, 55, True, 37, True, 30, True, 35, True, 30, True, 34, True, 398
+Abhishek Singh, 71307242D, 12, 28, 40, True, 18, 15, 33, False, 15, 29, 44, True, 14, 28, 42, True, 14, 33, 47, True, 34, True, 30, True, 39, True, 36, True, 35, True, 380
+Abhishek Sinha, 71206562J, 13, 4, 17, False, 18, 34, 52, True, 20, 28, 48, True, 15, 39, 54, True, 14, 37, 51, True, 23, True, 21, True, 33, True, 36, True, 29, True, 364
+Ajay Kumar Saharan, 71307246G, 13, 15, 28, False, 14, 28, 42, True, 8, 22, 30, False, 15, 28, 43, True, 5, 37, 42, True, 30, True, 20, True, 35, True, 10, False, 32, True, 312
+Ajay Singh, 71206568H, 1, 0, 1, False, 10, 0, 10, False, 7, 0, 7, False, 6, 0, 6, False, 7, 13, 20, False, 21, True, 0, False, 32, True, 32, True, 30, True, 159
+Ajeet Singh Saini, 71307249M, 23, 28, 51, True, 20, 48, 68, True, 22, 41, 63, True, 18, 33, 51, True, 15, 48, 63, True, 46, True, 45, True, 47, True, 41, True, 44, True, 519
+Akanksha Dixit, 71307252M, 16, 35, 51, True, 20, 35, 55, True, 23, 42, 65, True, 15, 40, 55, True, 23, 52, 75, True, 45, True, 40, True, 47, True, 39, True, 46, True, 518
+Akash Kumar, 71307253K, 24, 28, 52, True, 20, 31, 51, True, 18, 31, 49, True, 15, 28, 43, True, 18, 47, 65, True, 42, True, 40, True, 41, True, 32, True, 37, True, 452
+Akhil Gaur, 71307254H, 22, 28, 50, True, 18, 16, 34, False, 25, 28, 53, True, 14, 16, 30, False, 24, 38, 62, True, 41, True, 36, True, 45, True, 30, True, 44, True, 425
+Akhilesh Kumar Singh, 71307255F, 21, 10, 31, False, 17, 16, 33, False, 16, 28, 44, True, 13, 19, 32, False, 14, 50, 64, True, 40, True, 35, True, 39, True, 30, True, 38, True, 386
+Akshit Vijay, 71307259J, 18, 2, 20, False, 14, 16, 30, False, 12, 28, 40, True, 5, 4, 9, False, 10, 39, 49, True, 38, True, 33, True, 40, True, 34, True, 39, True, 332
+Amal Paul, 71307260B, 27, 28, 55, True, 26, 35, 61, True, 26, 37, 63, True, 8, 21, 29, False, 22, 36, 58, True, 45, True, 42, True, 48, True, 40, True, 45, True, 486
+Aman Sinha, 71307262J, 12, 12, 24, False, 15, 28, 43, True, 16, 28, 44, True, 16, 28, 44, True, 18, 38, 56, True, 36, True, 30, True, 44, True, 37, True, 42, True, 400
+Amit Beniwal, 71307263G, 14, 28, 42, True, 20, 33, 53, True, 26, 28, 54, True, 16, 32, 48, True, 24, 41, 65, True, 42, True, 40, True, 42, True, 40, True, 44, True, 470
+Amitabh Kumar, 71307266M, 17, 13, 30, False, 23, 28, 51, True, 15, 28, 43, True, 16, 29, 45, True, 19, 38, 57, True, 34, True, 35, True, 38, True, 30, True, 36, True, 399
+Anupam Singh, 71307283M, 15, 11, 26, False, 10, 33, 43, True, 9, 19, 28, False, 12, 16, 28, False, 12, 15, 27, False, 39, True, 39, True, 37, True, 40, True, 35, True, 342
+Arjun Singh, 71307285H, 20, 28, 48, True, 18, 37, 55, True, 26, 35, 61, True, 16, 28, 44, True, 24, 44, 68, True, 40, True, 41, True, 44, True, 41, True, 43, True, 485
+Arun Kumar, 71307286F, 19, 31, 50, True, 18, 33, 51, True, 19, 31, 50, True, 17, 39, 56, True, 22, 46, 68, True, 40, True, 39, True, 42, True, 34, True, 40, True, 470
+Ashish Kumar, 71307289L, 17, 7, 24, False, 13, 30, 43, True, 15, 28, 43, True, 14, 28, 42, True, 4, 42, 46, True, 30, True, 33, True, 33, True, 35, True, 35, True, 364
+Ashish Kumar Jha, 71307290D, 22, 28, 50, True, 17, 28, 45, True, 19, 42, 61, True, 22, 40, 62, True, 27, 45, 72, True, 46, True, 45, True, 47, True, 37, True, 42, True, 507
+Atul Kumar Singh Mauni, 71307296C, 13, 6, 19, False, 14, 14, 28, False, 14, 12, 26, False, 8, 20, 28, False, 16, 28, 44, True, 34, True, 28, True, 38, True, 34, True, 41, True, 320
+Ayoush Chourasia, 71307299H, 20, 14, 34, False, 18, 32, 50, True, 15, 28, 43, True, 18, 19, 37, False, 14, 38, 52, True, 33, True, 30, True, 35, True, 37, True, 42, True, 393
+Ayush Negi, 71307300E, 23, 28, 51, True, 27, 31, 58, True, 27, 38, 65, True, 22, 17, 39, False, 25, 44, 69, True, 43, True, 40, True, 48, True, 42, True, 43, True, 498
+Bandana Chhetri, 71307301C, 25, 28, 53, True, 25, 29, 54, True, 20, 38, 58, True, 7, 43, 50, True, 19, 44, 63, True, 40, True, 33, True, 44, True, 36, True, 35, True, 466
+Chander Shekhar Singh R, 71307312J, 29, 28, 57, True, 19, 34, 53, True, 19, 38, 57, True, 19, 38, 57, True, 21, 47, 68, True, 42, True, 39, True, 44, True, 40, True, 39, True, 496
+Chandra Shekhar, 71307314E, 19, 17, 36, False, 21, 13, 34, False, 13, 28, 41, True, 13, 28, 41, True, 15, 48, 63, True, 35, True, 30, True, 39, True, 31, True, 40, True, 390
+Devender Kumar, 71106172G, 15, 4, 19, False, 14, 0, 14, False, 7, 21, 28, False, 12, 16, 28, False, 10, 31, 41, True, 22, True, 10, False, 39, True, 12, False, 41, True, 254
+Devendra Kumar Yadav, 71307321H, 18, 28, 46, True, 23, 35, 58, True, 19, 35, 54, True, 20, 37, 57, True, 25, 51, 76, True, 42, True, 40, True, 44, True, 31, True, 38, True, 486
+Dhananjay Singh Chhettr, 71307323D, 17, 9, 26, False, 17, 4, 21, False, 16, 10, 26, False, 12, 28, 40, True, 15, 36, 51, True, 38, True, 34, True, 40, True, 33, True, 39, True, 348
+Dhwanit Sharma, 71308938F, 22, 28, 50, True, 19, 28, 47, True, 19, 39, 58, True, 16, 20, 36, False, 20, 48, 68, True, 44, True, 38, True, 46, True, 37, True, 40, True, 464
+Eram Khan, 71307327G, 24, 11, 35, False, 21, 28, 49, True, 23, 38, 61, True, 18, 28, 46, True, 19, 47, 66, True, 43, True, 42, True, 45, True, 39, True, 39, True, 465
+G Surya Prakash Reddy, 71206644G, 22, 13, 35, False, 19, 28, 47, True, 17, 28, 45, True, 15, 19, 34, False, 12, 33, 45, True, 23, True, 15, False, 36, True, 12, False, 35, True, 327
+Gaurav Kumar, 71307330G, 27, 33, 60, True, 11, 34, 45, True, 25, 36, 61, True, 23, 48, 71, True, 19, 45, 64, True, 47, True, 40, True, 46, True, 37, True, 42, True, 513
+Gaurav Kumar, 71307331E, 21, 37, 58, True, 13, 30, 43, True, 18, 29, 47, True, 23, 55, 78, True, 25, 58, 83, True, 42, True, 35, True, 44, True, 34, True, 40, True, 504
+Gaurav Rathore, 71307332c, 18, 28, 46, True, 17, 28, 45, True, 15, 28, 43, True, 16, 20, 36, False, 16, 39, 55, True, 38, True, 34, True, 45, True, 35, True, 42, True, 419
+Gevendra Kumar Verma, 71307334K, 22, 28, 50, True, 20, 45, 65, True, 13, 37, 50, True, 17, 37, 54, True, 17, 44, 61, True, 44, True, 38, True, 47, True, 33, True, 40, True, 482
+Gurpreet Singh, 71307335H, 19, 28, 47, True, 19, 35, 54, True, 22, 34, 56, True, 13, 28, 41, True, 15, 42, 57, True, 40, True, 40, True, 46, True, 38, True, 45, True, 464
+Harshit Singh, 71307339L, 17, 13, 30, False, 16, 28, 44, True, 18, 28, 46, True, 12, 29, 41, True, 12, 34, 46, True, 33, True, 12, False, 37, True, 28, True, 37, True, 354
+Hema Upreti, 71307340D, 19, 56, 75, True, 15, 28, 43, True, 20, 28, 48, True, 19, 45, 64, True, 20, 46, 66, True, 44, True, 41, True, 45, True, 35, True, 39, True, 500
+Jitender Singh, 71307350M, 13, 33, 46, True, 18, 46, 64, True, 14, 18, 32, False, 17, 42, 59, True, 22, 46, 68, True, 35, True, 35, True, 41, True, 42, True, 39, True, 461
+K Nalan, 71307354D, 18, 28, 46, True, 16, 28, 44, True, 16, 28, 44, True, 14, 33, 47, True, 21, 43, 64, True, 33, True, 28, True, 36, True, 33, True, 34, True, 409
+K Shekanayaki, 71318007C, 26, 54, 80, True, 14, 46, 60, True, 25, 34, 59, True, 25, 36, 61, True, 22, 51, 73, True, 37, True, 36, True, 41, True, 38, True, 42, True, 527
+K Subhash Reddy, 71307355B, 18, 28, 46, True, 10, 15, 25, False, 13, 18, 31, False, 12, 18, 30, False, 18, 40, 58, True, 36, True, 30, True, 41, True, 22, True, 35, True, 354
+Kamal Kant Pandey, 71307356L, 16, 43, 59, True, 17, 48, 65, True, 15, 28, 43, True, 22, 33, 55, True, 23, 37, 60, True, 44, True, 40, True, 48, True, 40, True, 45, True, 499
+Kamlesh Kumar Singh, 71307357J, 25, 46, 71, True, 23, 49, 72, True, 24, 35, 59, True, 22, 51, 73, True, 20, 38, 58, True, 46, True, 44, True, 44, True, 30, True, 44, True, 541
+Kuldeep Singh, 71307363C, 18, 28, 46, True, 15, 35, 50, True, 16, 30, 46, True, 25, 31, 56, True, 14, 34, 48, True, 41, True, 38, True, 42, True, 36, True, 39, True, 442
+Kumari Sintu, 71307364M, 22, 31, 53, True, 19, 35, 54, True, 12, 35, 47, True, 15, 34, 49, True, 19, 41, 60, True, 40, True, 35, True, 41, True, 33, True, 35, True, 447
+Kushagra Kumar, 71206679K, 21, 30, 51, True, 14, 29, 43, True, 12, 31, 43, True, 12, 34, 46, True, 12, 32, 44, True, 25, True, 10, False, 34, True, 32, True, 33, True, 361
+Kushal Pal Singh, 71307367F, 24, 28, 52, True, 21, 39, 60, True, 15, 28, 43, True, 23, 41, 64, True, 19, 36, 55, True, 36, True, 30, True, 41, True, 29, True, 40, True, 450
+Mahavir Dwivedi, 71307371D, 20, 28, 48, True, 19, 42, 61, True, 22, 32, 54, True, 18, 30, 48, True, 15, 42, 57, True, 30, True, 30, True, 39, True, 40, True, 38, True, 445
+Mahendra Singh Jakhar, 71307372B, 25, 29, 54, True, 21, 45, 66, True, 19, 36, 55, True, 24, 43, 67, True, 22, 40, 62, True, 35, True, 35, True, 40, True, 35, True, 41, True, 490
+Manish Kumar, 71307376E, 22, 39, 61, True, 16, 44, 60, True, 16, 34, 50, True, 15, 42, 57, True, 23, 41, 64, True, 34, True, 40, True, 41, True, 35, True, 39, True, 481
+Manjot Singh, 71307377C, 18, 29, 47, True, 18, 42, 60, True, 19, 37, 56, True, 15, 32, 47, True, 19, 45, 64, True, 39, True, 39, True, 46, True, 40, True, 43, True, 481
+Manoj Sharma, 71314499J, 19, 34, 53, True, 22, 39, 61, True, 13, 36, 49, True, 17, 34, 51, True, 20, 50, 70, True, 40, True, 37, True, 42, True, 39, True, 34, True, 476
+Mayank Pratap Singh, 71206692G, 19, 2, 21, False, 18, 35, 53, True, 10, 8, 18, False, 16, 29, 45, True, 12, 30, 42, True, 28, True, 21, True, 39, True, 28, True, 33, True, 328
+Md Alam Khan, 71307379K, 27, 35, 62, True, 22, 48, 70, True, 18, 37, 55, True, 22, 48, 70, True, 18, 44, 62, True, 38, True, 35, True, 46, True, 40, True, 40, True, 518
+Mehakjyot, 71307381M, 27, 57, 84, True, 22, 48, 70, True, 23, 34, 57, True, 27, 52, 79, True, 22, 49, 71, True, 39, True, 40, True, 40, True, 31, True, 41, True, 552
+Mehetre Akshaykumar Gur, 71302221D, 20, 34, 54, True, 20, 39, 59, True, 17, 28, 45, True, 24, 40, 64, True, 17, 44, 61, True, 38, True, 30, True, 37, True, 30, True, 41, True, 459
+Mithun K James, 71307382K, 7, 1, 8, False, 12, 4, 16, False, 13, 14, 27, False, 3, 3, 6, False, 15, 10, 25, False, 30, True, 22, True, 41, True, 37, True, 40, True, 252
+Mitul Yadav, 71307383H, 13, 10, 23, False, 18, 30, 48, True, 11, 10, 21, False, 12, 15, 27, False, 16, 37, 53, True, 39, True, 25, True, 44, True, 35, True, 36, True, 351
+Mohammed Sheedh A H, 71307385D, 18, 28, 46, True, 18, 28, 46, True, 17, 28, 45, True, 12, 28, 40, True, 12, 43, 55, True, 37, True, 33, True, 40, True, 32, True, 37, True, 411
+Moni Kumari, 71307386B, 12, 29, 41, True, 16, 40, 56, True, 12, 30, 42, True, 13, 28, 41, True, 15, 39, 54, True, 41, True, 39, True, 43, True, 37, True, 40, True, 434
+Mukesh, 71307387L, 12, 9, 21, False, 15, 35, 50, True, 13, 6, 19, False, 12, 33, 45, True, 12, 32, 44, True, 38, True, 35, True, 38, True, 32, True, 38, True, 360
+Neeraj Singh Bani, 71307390L, 18, 14, 32, False, 12, 8, 20, False, 13, 28, 41, True, 16, 36, 52, True, 12, 37, 49, True, 44, True, 40, True, 40, True, 25, True, 38, True, 381
+Niharika Chakravartty, 71307392G, 23, 37, 60, True, 19, 33, 52, True, 18, 34, 52, True, 19, 39, 58, True, 23, 44, 67, True, 44, True, 45, True, 44, True, 41, True, 41, True, 504
+Nikhlesh Gawar, 71307394C, 17, 28, 45, True, 15, 34, 49, True, 12, 28, 40, True, 7, 41, 48, True, 13, 40, 53, True, 46, True, 42, True, 44, True, 40, True, 41, True, 448
+Pankaj Kumar, 71310798H, 13, 28, 41, True, 26, 43, 69, True, 15, 28, 43, True, 16, 43, 59, True, 12, 35, 47, True, 42, True, 38, True, 40, True, 32, True, 38, True, 449
+Pawan Kumar, 71307406L, 18, 42, 60, True, 14, 31, 45, True, 14, 40, 54, True, 15, 34, 49, True, 26, 41, 67, True, 33, True, 35, True, 43, True, 38, True, 38, True, 462
+Payal Singh, 71307408G, 18, 49, 67, True, 19, 30, 49, True, 18, 33, 51, True, 18, 33, 51, True, 21, 47, 68, True, 42, True, 43, True, 43, True, 37, True, 40, True, 491
+Pooja Kulhari, 71307410J, 26, 38, 64, True, 20, 36, 56, True, 19, 31, 50, True, 22, 38, 60, True, 22, 40, 62, True, 43, True, 44, True, 41, True, 39, True, 39, True, 498
+Poonam, 71312099B, 24, 28, 52, True, 20, 30, 50, True, 26, 31, 57, True, 16, 33, 49, True, 23, 39, 62, True, 44, True, 35, True, 46, True, 32, True, 42, True, 469
+Pramila Singh, 71307415K, 19, 33, 52, True, 17, 29, 46, True, 13, 33, 46, True, 20, 40, 60, True, 16, 42, 58, True, 45, True, 38, True, 40, True, 34, True, 43, True, 462
+Pranav Minhas, 71307416H, 21, 28, 49, True, 18, 14, 32, False, 12, 18, 30, False, 12, 36, 48, True, 11, 32, 43, True, 37, True, 30, True, 37, True, 26, True, 40, True, 372
+Prashant Kumar, 71307417F, 20, 34, 54, True, 18, 30, 48, True, 15, 30, 45, True, 20, 45, 65, True, 18, 46, 64, True, 43, True, 40, True, 41, True, 33, True, 39, True, 472
+Prateek Kumar, 71307418D, 14, 17, 31, False, 14, 28, 42, True, 12, 11, 23, False, 7, 46, 53, True, 12, 31, 43, True, 39, True, 35, True, 37, True, 32, True, 42, True, 377
+Pravin Yadav, 71307421D, 14, 28, 42, True, 26, 13, 39, False, 12, 28, 40, True, 12, 28, 40, True, 8, 25, 33, False, 42, True, 35, True, 40, True, 34, True, 40, True, 385
+Priyanka Kumari, 71307423L, 13, 36, 49, True, 26, 28, 54, True, 22, 36, 58, True, 19, 51, 70, True, 13, 36, 49, True, 39, True, 43, True, 38, True, 40, True, 41, True, 481
+Priyanka Sachan, 71312113M, 23, 35, 58, True, 15, 31, 46, True, 21, 43, 64, True, 17, 52, 69, True, 16, 30, 46, True, 44, True, 39, True, 40, True, 32, True, 36, True, 474
+Puneet Singh, 71307425G, 24, 32, 56, True, 17, 28, 45, True, 21, 46, 67, True, 15, 46, 61, True, 25, 39, 64, True, 38, True, 36, True, 40, True, 38, True, 42, True, 487
+Radha Choudhary, 71307429K, 23, 28, 51, True, 21, 28, 49, True, 24, 37, 61, True, 20, 42, 62, True, 24, 45, 69, True, 40, True, 40, True, 45, True, 40, True, 45, True, 502
+Rahul Choudhary, 71307430C, 20, 16, 36, False, 19, 28, 47, True, 14, 28, 42, True, 0, 43, 43, True, 7, 26, 33, False, 40, True, 30, True, 35, True, 24, True, 38, True, 368
+Rahul Sahu, 71307432K, 12, 31, 43, True, 17, 28, 45, True, 12, 28, 40, True, 17, 45, 62, True, 12, 38, 50, True, 36, True, 22, True, 36, True, 29, True, 38, True, 401
+Raj Praveen Pradhan, 71307434F, 28, 32, 60, True, 23, 28, 51, True, 16, 41, 57, True, 14, 49, 63, True, 19, 42, 61, True, 40, True, 40, True, 46, True, 41, True, 37, True, 496
+Rajat Kumar, 71307435D, 23, 17, 40, False, 20, 28, 48, True, 14, 30, 44, True, 14, 49, 63, True, 18, 41, 59, True, 39, True, 35, True, 34, True, 30, True, 35, True, 427
+Rajat Singh, 71307436B, 18, 31, 49, True, 23, 36, 59, True, 22, 30, 52, True, 19, 48, 67, True, 16, 34, 50, True, 40, True, 39, True, 41, True, 36, True, 32, True, 465
+Rajesh Giri, 71307437L, 18, 28, 46, True, 21, 28, 49, True, 15, 19, 34, False, 17, 31, 48, True, 22, 28, 50, True, 36, True, 37, True, 38, True, 33, True, 37, True, 408
+Rajhans Singh Rathore, 71307438J, 23, 11, 34, False, 21, 28, 49, True, 18, 28, 46, True, 21, 43, 64, True, 18, 37, 55, True, 39, True, 38, True, 41, True, 21, True, 37, True, 424
+Raman Sah, 71307441J, 27, 14, 41, False, 23, 12, 35, False, 27, 28, 55, True, 14, 28, 42, True, 22, 34, 56, True, 38, True, 40, True, 48, True, 43, True, 46, True, 444
+Ravi Kumar, 71308458J, 15, 28, 43, True, 16, 28, 44, True, 15, 28, 43, True, 6, 47, 53, True, 15, 28, 43, True, 37, True, 25, True, 35, True, 34, True, 30, True, 387
+Rohit Kumar, 71307453B, 20, 30, 50, True, 14, 28, 42, True, 18, 28, 46, True, 18, 43, 61, True, 14, 32, 46, True, 40, True, 40, True, 41, True, 27, True, 38, True, 431
+Roushan Kumar Singh, 71307458C, 23, 28, 51, True, 24, 32, 56, True, 15, 30, 45, True, 18, 52, 70, True, 15, 36, 51, True, 44, True, 42, True, 42, True, 37, True, 39, True, 477
+Ruchi Choudhary, 71307459M, 20, 28, 48, True, 14, 16, 30, False, 15, 28, 43, True, 14, 52, 66, True, 12, 37, 49, True, 31, True, 36, True, 34, True, 30, True, 35, True, 402
+Saloni Atre, 71307461C, 19, 33, 52, True, 18, 28, 46, True, 19, 28, 47, True, 13, 46, 59, True, 19, 38, 57, True, 40, True, 39, True, 41, True, 40, True, 37, True, 458
+Sangita Yadav, 71307466D, 23, 28, 51, True, 21, 28, 49, True, 23, 29, 52, True, 25, 44, 69, True, 16, 35, 51, True, 44, True, 42, True, 42, True, 34, True, 46, True, 480
+Santosh Kumar, 71307469J, 19, 29, 48, True, 19, 28, 47, True, 19, 38, 57, True, 20, 50, 70, True, 13, 33, 46, True, 45, True, 40, True, 42, True, 36, True, 43, True, 474
+Sarika Kaushik, 71307470B, 18, 28, 46, True, 20, 31, 51, True, 18, 29, 47, True, 20, 42, 62, True, 12, 38, 50, True, 44, True, 35, True, 40, True, 32, True, 39, True, 446
+Shaikh Anjum Dilawar, 71327739E, 20, 28, 48, True, 17, 28, 45, True, 20, 28, 48, True, 17, 34, 51, True, 15, 38, 53, True, 40, True, 35, True, 43, True, 28, True, 37, True, 428
+Shailender Singh Kushwa, 71307474E, 13, 28, 41, True, 18, 30, 48, True, 16, 28, 44, True, 12, 39, 51, True, 12, 40, 52, True, 35, True, 38, True, 39, True, 36, True, 30, True, 414
+Shailendra, 71307475C, 23, 29, 52, True, 21, 33, 54, True, 21, 33, 54, True, 22, 39, 61, True, 23, 42, 65, True, 40, True, 44, True, 46, True, 40, True, 46, True, 502
+Shailendra Pratap Singh, 71206791E, 26, 28, 54, True, 21, 33, 54, True, 21, 35, 56, True, 19, 38, 57, True, 15, 44, 59, True, 38, True, 35, True, 43, True, 34, True, 40, True, 470
+Shilpa Manhas, 71307480K, 21, 29, 50, True, 18, 28, 46, True, 14, 33, 47, True, 17, 49, 66, True, 13, 33, 46, True, 40, True, 38, True, 37, True, 36, True, 38, True, 444
+Shinde Saijeet Dadasahe, 71324574D, 16, 28, 44, True, 15, 31, 46, True, 16, 28, 44, True, 16, 48, 64, True, 7, 36, 43, True, 37, True, 33, True, 37, True, 31, True, 40, True, 419
+Shreyas Udhav Rakshe, 71310876C, 19, 28, 47, True, 21, 28, 49, True, 12, 32, 44, True, 17, 39, 56, True, 20, 32, 52, True, 39, True, 38, True, 40, True, 38, True, 35, True, 438
+Shubham Mishra, 71307483D, 12, 28, 40, True, 13, 28, 41, True, 12, 28, 40, True, 6, 25, 31, False, 13, 24, 37, False, 34, True, 30, True, 37, True, 30, True, 38, True, 358
+Siddarth, 71307488E, 19, 28, 47, True, 17, 29, 46, True, 14, 7, 21, False, 15, 0, 15, False, 12, 37, 49, True, 38, True, 44, True, 39, True, 40, True, 39, True, 378
+Subham Kumar Sharma, 71307491E, 24, 42, 66, True, 21, 28, 49, True, 21, 31, 52, True, 19, 36, 55, True, 17, 38, 55, True, 43, True, 41, True, 42, True, 35, True, 42, True, 480
+Sudhanshu Singh, 71307495H, 13, 34, 47, True, 15, 28, 43, True, 16, 28, 44, True, 14, 30, 44, True, 24, 34, 58, True, 40, True, 41, True, 44, True, 34, True, 38, True, 433
+Sumer Singh, 71307496F, 21, 43, 64, True, 20, 28, 48, True, 19, 28, 47, True, 22, 41, 63, True, 15, 42, 57, True, 44, True, 40, True, 44, True, 38, True, 39, True, 484
+Sunil Kumar Baghel, 71307498B, 16, 28, 44, True, 16, 12, 28, False, 13, 18, 31, False, 20, 32, 52, True, 12, 32, 44, True, 38, True, 41, True, 40, True, 40, True, 38, True, 396
+Supriyanka Kharade, 71319906H, 22, 34, 56, True, 23, 42, 65, True, 18, 28, 46, True, 20, 28, 48, True, 18, 34, 52, True, 45, True, 42, True, 43, True, 30, True, 37, True, 464
+Sushil Kumar Singh, 71307503B, 24, 35, 59, True, 21, 31, 52, True, 19, 33, 52, True, 21, 44, 65, True, 17, 42, 59, True, 45, True, 44, True, 40, True, 40, True, 38, True, 494
+Varun Bajaj, 71307508C, 10, 18, 28, False, 11, 29, 40, True, 11, 29, 40, True, 14, 32, 46, True, 7, 33, 40, True, 27, True, 32, True, 34, True, 38, True, 38, True, 363
+Vijay Singh Verma, 71307509M, 16, 34, 50, True, 17, 28, 45, True, 16, 41, 57, True, 14, 29, 43, True, 14, 40, 54, True, 40, True, 33, True, 42, True, 25, True, 37, True, 426
+Vijaya Khati, 71307510E, 26, 32, 58, True, 24, 28, 52, True, 22, 36, 58, True, 26, 29, 55, True, 20, 37, 57, True, 46, True, 45, True, 42, True, 40, True, 46, True, 499
+Vijaylaxmi, 71307511C, 26, 42, 68, True, 21, 32, 53, True, 17, 36, 53, True, 18, 29, 47, True, 22, 36, 58, True, 45, True, 40, True, 40, True, 26, True, 46, True, 476
+Vikas Kumar Lathar, 71307513K, 19, 33, 52, True, 15, 28, 43, True, 10, 30, 40, True, 13, 35, 48, True, 9, 31, 40, True, 42, True, 30, True, 41, True, 36, True, 37, True, 409
+Vikash Singh, 71307515F, 21, 28, 49, True, 23, 28, 51, True, 7, 20, 27, False, 19, 36, 55, True, 9, 21, 30, False, 33, True, 38, True, 37, True, 33, True, 36, True, 389
+Vikram Singh Jadon, 71307516D, 19, 30, 49, True, 23, 28, 51, True, 19, 36, 55, True, 21, 37, 58, True, 16, 45, 61, True, 33, True, 39, True, 42, True, 43, True, 41, True, 472
+Vikrant Kumar, 71307517B, 20, 28, 48, True, 22, 32, 54, True, 10, 33, 43, True, 17, 37, 54, True, 15, 37, 52, True, 39, True, 37, True, 40, True, 31, True, 40, True, 438
+Vineet Pandey, 71307521L, 25, 41, 66, True, 26, 46, 72, True, 17, 38, 55, True, 21, 34, 55, True, 19, 40, 59, True, 41, True, 39, True, 40, True, 33, True, 32, True, 492
+Vinod Kumar Yadav, 71307523G, 21, 45, 66, True, 24, 42, 66, True, 16, 29, 45, True, 21, 42, 63, True, 25, 44, 69, True, 46, True, 46, True, 48, True, 40, True, 35, True, 524
+Vipul Tiwari, 71307525C, 19, 28, 47, True, 16, 28, 44, True, 15, 28, 43, True, 12, 36, 48, True, 14, 35, 49, True, 38, True, 42, True, 40, True, 30, True, 36, True, 417
+Yashdev Kookna, 71307532F, 23, 10, 33, False, 22, 28, 50, True, 19, 14, 33, False, 15, 28, 43, True, 13, 22, 35, False, 43, True, 40, True, 42, True, 31, True, 38, True, 388
+
+
+Computer
+
+student_name, perma_reg_num, 310241 PPoe_marks, 310241 PPth_marks, 310241 PPobtained_marks, 310241 PPis_pass, 310242 PPoe_marks, 310242 PPth_marks, 310242 PPobtained_marks, 310242 PPis_pass, 310243 PPoe_marks, 310243 PPth_marks, 310243 PPobtained_marks, 310243 PPis_pass, 310244 PPoe_marks, 310244 PPth_marks, 310244 PPobtained_marks, 310244 PPis_pass, 310245 PPoe_marks, 310245 PPth_marks, 310245 PPobtained_marks, 310245 PPis_pass, 310246 PRobtained_marks, 310246 PRis_pass, 310246 ORobtained_marks, 310246 ORis_pass, 310247 TWobtained_marks, 310247 TWis_pass, 310247 ORobtained_marks, 310247 ORis_pass, 310248 TWobtained_marks, 310248 TWis_pass, total_marks
+Abhishek Kumar Sangwan, 71307240H, 21, 31, 52, True, 18, 43, 61, True, 17, 45, 62, True, 16, 33, 49, True, 19, 37, 56, True, 26, True, 21, True, 40, True, 35, True, 38, True, 440
+Abhitesh Debnath, 71307243B, 24, 28, 52, True, 16, 44, 60, True, 14, 42, 56, True, 15, 30, 45, True, 18, 31, 49, True, 30, True, 28, True, 38, True, 40, True, 37, True, 435
+Ajay Shekhawat, 71307247E, 21, 28, 49, True, 17, 39, 56, True, 12, 48, 60, True, 14, 42, 56, True, 14, 38, 52, True, 25, True, 21, True, 36, True, 30, True, 34, True, 419
+Ajit Dhdharia, 71307250E, 13, 28, 41, True, 17, 28, 45, True, 14, 36, 50, True, 9, 21, 30, False, 12, 31, 43, True, 20, True, 20, True, 35, True, 28, True, 42, True, 354
+Ajit Singh Yadav, 71307251C, 21, 39, 60, True, 21, 44, 65, True, 13, 44, 57, True, 17, 32, 49, True, 13, 28, 41, True, 22, True, 11, False, 38, True, 35, True, 34, True, 412
+Akshay Kumar Soam, 71307258L, 19, 28, 47, True, 18, 41, 59, True, 12, 40, 52, True, 13, 28, 41, True, 15, 38, 53, True, 27, True, 33, True, 36, True, 36, True, 39, True, 423
+Amit Chahar, 71307264E, 24, 41, 65, True, 22, 44, 66, True, 24, 46, 70, True, 13, 44, 57, True, 17, 31, 48, True, 28, True, 22, True, 37, True, 35, True, 44, True, 472
+Amit Kumar, 71307265C, 25, 31, 56, True, 23, 44, 67, True, 17, 42, 59, True, 12, 29, 41, True, 12, 32, 44, True, 42, True, 38, True, 45, True, 42, True, 41, True, 475
+Anil Choudhary, 71307270K, 10, 14, 24, False, 9, 31, 40, True, 8, 25, 33, False, 12, 19, 31, False, 12, 23, 35, False, 24, True, 10, False, 30, True, 37, True, 37, True, 301
+Anil Kumar, 71307271H, 17, 29, 46, True, 18, 40, 58, True, 15, 41, 56, True, 13, 41, 54, True, 13, 35, 48, True, 20, True, 11, False, 35, True, 25, True, 35, True, 388
+Anish Kumar Jha, 71307273D, 16, 28, 44, True, 20, 46, 66, True, 15, 48, 63, True, 23, 36, 59, True, 23, 31, 54, True, 40, True, 32, True, 47, True, 43, True, 47, True, 495
+Ankit Kumar Mishra, 71307274B, 22, 30, 52, True, 16, 41, 57, True, 20, 37, 57, True, 17, 31, 48, True, 22, 42, 64, True, 21, True, 25, True, 37, True, 39, True, 36, True, 436
+Ankit Kumar Verma, 71307275L, 10, 30, 40, True, 26, 45, 71, True, 14, 43, 57, True, 15, 35, 50, True, 16, 28, 44, True, 30, True, 31, True, 41, True, 45, True, 39, True, 448
+Anubhav Singh, 71307280G, 11, 29, 40, True, 17, 34, 51, True, 14, 34, 48, True, 13, 30, 43, True, 12, 28, 40, True, 11, False, 10, False, 31, True, 36, True, 33, True, 343
+Anuj Tomar, 71307282C, 16, 28, 44, True, 21, 28, 49, True, 15, 41, 56, True, 16, 36, 52, True, 19, 29, 48, True, 20, True, 23, True, 34, True, 32, True, 35, True, 393
+Ashutosh Kumar Thakur, 71307293J, 17, 28, 45, True, 16, 43, 59, True, 17, 41, 58, True, 17, 30, 47, True, 13, 32, 45, True, 30, True, 28, True, 39, True, 37, True, 36, True, 424
+Awanish Kumar Pandey, 71206615C, 10, 19, 29, False, 10, 20, 30, False, 13, 40, 53, True, 15, 29, 44, True, 12, 33, 45, True, 11, False, 10, False, 33, True, 27, True, 33, True, 315
+Chirag Nagpal, 71307317k, 20, 33, 53, True, 24, 46, 70, True, 18, 47, 65, True, 24, 37, 61, True, 22, 34, 56, True, 40, True, 30, True, 40, True, 45, True, 38, True, 498
+Deep Narain Sodhi, 71307319F, 15, 28, 43, True, 20, 40, 60, True, 15, 42, 57, True, 15, 32, 47, True, 17, 34, 51, True, 29, True, 31, True, 38, True, 32, True, 34, True, 422
+Diwakar Kumar Singh, 71307326J, 9, 31, 40, True, 12, 32, 44, True, 8, 35, 43, True, 14, 21, 35, False, 13, 29, 42, True, 27, True, 21, True, 30, True, 27, True, 34, True, 343
+Janardan Singh Parihar, 71307345E, 24, 36, 60, True, 22, 35, 57, True, 21, 47, 68, True, 20, 38, 58, True, 21, 35, 56, True, 21, True, 25, True, 37, True, 29, True, 38, True, 449
+Juhi Choubey, 71307352H, 27, 32, 59, True, 23, 36, 59, True, 20, 49, 69, True, 18, 35, 53, True, 22, 43, 65, True, 30, True, 26, True, 42, True, 39, True, 40, True, 482
+Jyoti Gautam, 71307353F, 15, 17, 32, False, 11, 38, 49, True, 12, 37, 49, True, 13, 21, 34, False, 12, 28, 40, True, 22, True, 25, True, 39, True, 36, True, 36, True, 362
+Komal Kumari, 71307360J, 21, 34, 55, True, 11, 39, 50, True, 15, 45, 60, True, 16, 39, 55, True, 15, 40, 55, True, 30, True, 24, True, 39, True, 36, True, 38, True, 442
+Kuldeep Singh, 71307362E, 16, 43, 59, True, 18, 44, 62, True, 22, 45, 67, True, 19, 32, 51, True, 17, 42, 59, True, 25, True, 32, True, 38, True, 34, True, 39, True, 466
+Lakkakula Venkata Rames, 71307368D, 20, 48, 68, True, 15, 37, 52, True, 12, 41, 53, True, 13, 28, 41, True, 14, 30, 44, True, 11, False, 23, True, 38, True, 32, True, 36, True, 398
+Laxmiswami, 71307370F, 15, 31, 46, True, 14, 44, 58, True, 15, 39, 54, True, 16, 31, 47, True, 13, 35, 48, True, 12, False, 22, True, 36, True, 30, True, 37, True, 390
+Mamta Gangwar, 71307373L, 14, 46, 60, True, 12, 32, 44, True, 15, 37, 52, True, 14, 32, 46, True, 20, 35, 55, True, 25, True, 20, True, 36, True, 31, True, 36, True, 405
+Mayur Ganesh Indalkar, 71307378M, 17, 32, 49, True, 15, 31, 46, True, 14, 38, 52, True, 16, 28, 44, True, 17, 30, 47, True, 26, True, 10, False, 40, True, 30, True, 36, True, 380
+Naresh Kumar, 71307388J, 18, 33, 51, True, 22, 30, 52, True, 19, 46, 65, True, 17, 34, 51, True, 13, 33, 46, True, 30, True, 32, True, 32, True, 25, True, 37, True, 421
+Neha Malik, 71307391J, 20, 42, 62, True, 26, 41, 67, True, 21, 50, 71, True, 22, 22, 44, False, 22, 33, 55, True, 20, True, 22, True, 41, True, 38, True, 46, True, 466
+Nikhil Judge, 71307393E, 16, 46, 62, True, 24, 41, 65, True, 17, 45, 62, True, 19, 38, 57, True, 21, 32, 53, True, 38, True, 28, True, 35, True, 30, True, 37, True, 467
+Nitish Mowall, 71307397H, 20, 52, 72, True, 18, 52, 70, True, 18, 41, 59, True, 14, 29, 43, True, 17, 36, 53, True, 28, True, 26, True, 38, True, 32, True, 40, True, 461
+Nutan Kumari, 71307399D, 24, 39, 63, True, 16, 39, 55, True, 17, 41, 58, True, 22, 34, 56, True, 22, 40, 62, True, 27, True, 28, True, 41, True, 35, True, 35, True, 460
+Paritosh Mankoti, 71307403F, 20, 33, 53, True, 18, 28, 46, True, 18, 30, 48, True, 17, 36, 53, True, 16, 33, 49, True, 32, True, 30, True, 36, True, 37, True, 34, True, 418
+Pintu Jat, 71307409E, 21, 32, 53, True, 19, 37, 56, True, 19, 42, 61, True, 16, 34, 50, True, 18, 44, 62, True, 30, True, 20, True, 35, True, 30, True, 37, True, 434
+Pradip Singh Tomar, 71307413C, 22, 28, 50, True, 21, 41, 62, True, 23, 47, 70, True, 16, 28, 44, True, 20, 41, 61, True, 35, True, 28, True, 40, True, 33, True, 38, True, 461
+Premdeep Saini, 71307422B, 21, 28, 49, True, 23, 35, 58, True, 21, 41, 62, True, 20, 36, 56, True, 22, 40, 62, True, 40, True, 35, True, 44, True, 40, True, 46, True, 492
+Rahul Singh, 71307433H, 12, 28, 40, True, 12, 29, 41, True, 15, 30, 45, True, 10, 30, 40, True, 12, 38, 50, True, 28, True, 12, False, 35, True, 32, True, 35, True, 358
+Rajnish Kumar, 71307439G, 25, 40, 65, True, 18, 42, 60, True, 18, 44, 62, True, 19, 36, 55, True, 22, 53, 75, True, 30, True, 32, True, 44, True, 40, True, 45, True, 508
+Rishabh Agrawal, 71307446K, 15, 28, 43, True, 19, 38, 57, True, 24, 48, 72, True, 17, 37, 54, True, 22, 41, 63, True, 35, True, 28, True, 37, True, 32, True, 39, True, 460
+Ritesh Singh Parihar, 71307448F, 15, 43, 58, True, 21, 36, 57, True, 19, 41, 60, True, 17, 32, 49, True, 23, 39, 62, True, 32, True, 30, True, 35, True, 33, True, 39, True, 455
+Rohan Kirpekar, 71307450H, 23, 32, 55, True, 21, 35, 56, True, 19, 41, 60, True, 18, 36, 54, True, 22, 38, 60, True, 15, False, 11, False, 39, True, 37, True, 34, True, 421
+Rohit Rajput, 71307456G, 13, 28, 41, True, 16, 28, 44, True, 18, 28, 46, True, 18, 35, 53, True, 19, 38, 57, True, 30, True, 22, True, 40, True, 32, True, 37, True, 402
+Sachin Sharma, 71307460E, 18, 40, 58, True, 13, 39, 52, True, 17, 30, 47, True, 17, 32, 49, True, 22, 38, 60, True, 25, True, 20, True, 35, True, 31, True, 35, True, 412
+Sandeep Kumar, 71307464H, 19, 28, 47, True, 15, 34, 49, True, 20, 38, 58, True, 16, 28, 44, True, 21, 37, 58, True, 10, False, 20, True, 38, True, 29, True, 36, True, 389
+Sarwan Kumar Rai, 71307471L, 16, 35, 51, True, 15, 40, 55, True, 16, 38, 54, True, 14, 29, 43, True, 21, 48, 69, True, 32, True, 35, True, 41, True, 37, True, 39, True, 456
+Shankar Sharma, 71307476M, 11, 32, 43, True, 22, 39, 61, True, 22, 46, 68, True, 23, 41, 64, True, 22, 48, 70, True, 22, True, 11, False, 35, True, 29, True, 35, True, 438
+Shinsmon Varghese, 71307481H, 22, 28, 50, True, 17, 31, 48, True, 18, 40, 58, True, 14, 37, 51, True, 19, 43, 62, True, 11, False, 10, False, 30, True, 34, True, 25, True, 379
+Shubham Nandlal Pendhar, 71307484B, 23, 38, 61, True, 20, 37, 57, True, 22, 41, 63, True, 20, 40, 60, True, 21, 33, 54, True, 42, True, 40, True, 47, True, 43, True, 43, True, 510
+Shubham Verma, 71307486J, 24, 54, 78, True, 21, 44, 65, True, 20, 49, 69, True, 17, 44, 61, True, 21, 50, 71, True, 25, True, 12, False, 35, True, 31, True, 35, True, 482
+Sudeep Kumar, 71307493M, 11, 31, 42, True, 9, 34, 43, True, 21, 39, 60, True, 16, 29, 45, True, 20, 41, 61, True, 30, True, 23, True, 38, True, 35, True, 38, True, 415
+Sunita Dhaka, 71307499L, 17, 18, 35, False, 15, 32, 47, True, 12, 28, 40, True, 13, 33, 46, True, 15, 33, 48, True, 25, True, 22, True, 35, True, 33, True, 31, True, 362
+Utlesh Kumar Singh, 71307506G, 13, 29, 42, True, 17, 39, 56, True, 14, 33, 47, True, 17, 42, 59, True, 15, 47, 62, True, 10, False, 30, True, 36, True, 30, True, 36, True, 408
+Vikas Chandra, 71307512M, 16, 19, 35, False, 19, 34, 53, True, 13, 35, 48, True, 16, 33, 49, True, 21, 36, 57, True, 25, True, 20, True, 40, True, 36, True, 38, True, 401
+Vikas Kundu, 71307514H, 21, 19, 40, False, 5, 30, 35, False, 18, 35, 53, True, 13, 28, 41, True, 16, 35, 51, True, 30, True, 28, True, 38, True, 37, True, 35, True, 388
+Vineet, 71307520B, 21, 45, 66, True, 15, 29, 44, True, 19, 33, 52, True, 12, 34, 46, True, 18, 36, 54, True, 27, True, 26, True, 37, True, 32, True, 32, True, 416
+Vishal Yadav, 71307528h, 11, 50, 61, True, 26, 47, 73, True, 18, 47, 65, True, 19, 45, 64, True, 15, 42, 57, True, 25, True, 21, True, 37, True, 31, True, 36, True, 470
+Vivek Kumar Mahto, 71307529F, 20, 50, 70, True, 23, 48, 71, True, 20, 52, 72, True, 17, 44, 61, True, 23, 47, 70, True, 10, False, 22, True, 34, True, 30, True, 30, True, 470
+Vivek Kumar Thakur, 71307531H, 23, 49, 72, True, 25, 49, 74, True, 21, 52, 73, True, 21, 46, 67, True, 23, 47, 70, True, 38, True, 30, True, 42, True, 38, True, 39, True, 543
+
+
+Informatiom Technology
+
+student_name, perma_reg_num, 314441 PPoe_marks, 314441 PPth_marks, 314441 PPobtained_marks, 314441 PPis_pass, 314442 PPoe_marks, 314442 PPth_marks, 314442 PPobtained_marks, 314442 PPis_pass, 314443 PPoe_marks, 314443 PPth_marks, 314443 PPobtained_marks, 314443 PPis_pass, 314444 PPoe_marks, 314444 PPth_marks, 314444 PPobtained_marks, 314444 PPis_pass, 314445 PPoe_marks, 314445 PPth_marks, 314445 PPobtained_marks, 314445 PPis_pass, 314446 TWobtained_marks, 314446 TWis_pass, 314446 PRobtained_marks, 314446 PRis_pass, 314447 PRobtained_marks, 314447 PRis_pass, 314447 ORobtained_marks, 314447 ORis_pass, 314448 TWobtained_marks, 314448 TWis_pass, total_marks
+Abhinandan, 71307239D, 18, 23, 41, False, 20, 43, 63, True, 23, 28, 51, True, 12, 28, 40, True, 22, 28, 50, True, 35, True, 32, True, 37, True, 29, True, 30, True, 408
+Afrin Chakure, 71307244L, 18, 36, 54, True, 23, 53, 76, True, 20, 49, 69, True, 12, 46, 58, True, 27, 42, 69, True, 44, True, 32, True, 38, True, 38, True, 35, True, 513
+Agrima Seth, 71307245J, 26, 39, 65, True, 26, 66, 92, True, 25, 50, 75, True, 18, 52, 70, True, 27, 37, 64, True, 47, True, 42, True, 40, True, 42, True, 48, True, 585
+Akram Khan, 71307256D, 18, 33, 51, True, 14, 36, 50, True, 17, 38, 55, True, 15, 38, 53, True, 24, 32, 56, True, 35, True, 30, True, 37, True, 36, True, 30, True, 433
+Aman Kumar, 71307261L, 21, 28, 49, True, 13, 0, 13, False, 22, 52, 74, True, 18, 46, 64, True, 26, 0, 26, False, 45, True, 40, True, 36, True, 35, True, 40, True, 422
+Anand Tripathi, 71307269F, 19, 23, 42, False, 27, 50, 77, True, 17, 41, 58, True, 16, 40, 56, True, 24, 23, 47, False, 43, True, 35, True, 42, True, 40, True, 40, True, 480
+Anil Kumar Dahiya, 71307272F, 15, 19, 34, False, 26, 54, 80, True, 12, 49, 61, True, 13, 38, 51, True, 26, 20, 46, False, 42, True, 15, False, 41, True, 40, True, 32, True, 442
+Ankit Singh, 71307277G, 19, 29, 48, True, 12, 43, 55, True, 9, 44, 53, True, 17, 32, 49, True, 22, 29, 51, True, 45, True, 40, True, 38, True, 32, True, 40, True, 451
+Ankur Chauhan, 71307278E, 15, 37, 52, True, 24, 43, 67, True, 18, 40, 58, True, 12, 36, 48, True, 14, 28, 42, True, 36, True, 32, True, 39, True, 33, True, 30, True, 437
+Anuj Kumar Verma, 71307281E, 23, 37, 60, True, 26, 56, 82, True, 26, 53, 79, True, 22, 46, 68, True, 26, 37, 63, True, 46, True, 35, True, 40, True, 43, True, 44, True, 560
+Apurva Sharma, 71307284K, 18, 29, 47, True, 19, 49, 68, True, 18, 45, 63, True, 13, 44, 57, True, 20, 34, 54, True, 39, True, 32, True, 32, True, 34, True, 35, True, 461
+Arun Kumar Singh, 71307287D, 10, 25, 35, False, 4, 36, 40, True, 13, 47, 60, True, 17, 38, 55, True, 17, 32, 49, True, 39, True, 32, True, 34, True, 40, True, 26, True, 410
+Ashwani Kumar, 71307295E, 12, 15, 27, False, 27, 53, 80, True, 16, 42, 58, True, 14, 36, 50, True, 22, 24, 46, False, 46, True, 40, True, 39, True, 42, True, 45, True, 473
+Atul Rawat, 71307297M, 20, 32, 52, True, 17, 53, 70, True, 12, 46, 58, True, 20, 42, 62, True, 28, 34, 62, True, 44, True, 30, True, 40, True, 35, True, 43, True, 496
+Avinash Kumar Singh, 71307298K, 12, 23, 35, False, 18, 48, 66, True, 16, 40, 56, True, 17, 36, 53, True, 19, 29, 48, True, 40, True, 34, True, 33, True, 37, True, 32, True, 434
+Bandana Pandey, 71307302M, 18, 29, 47, True, 27, 59, 86, True, 18, 56, 74, True, 17, 50, 67, True, 25, 32, 57, True, 42, True, 30, True, 37, True, 36, True, 38, True, 514
+Basant Kumar, 71307303K, 15, 22, 37, False, 17, 45, 62, True, 15, 31, 46, True, 13, 35, 48, True, 24, 28, 52, True, 43, True, 36, True, 34, True, 35, True, 35, True, 428
+Bhupinder Singh, 71307307B, 14, 23, 37, False, 24, 44, 68, True, 16, 39, 55, True, 15, 28, 43, True, 21, 28, 49, True, 40, True, 35, True, 32, True, 35, True, 43, True, 437
+Bikas Kumar Rai, 71307309J, 17, 32, 49, True, 22, 57, 79, True, 14, 38, 52, True, 15, 20, 35, False, 20, 28, 48, True, 41, True, 30, True, 36, True, 39, True, 35, True, 444
+Bittu Kumar, 71206622F, 18, 13, 31, False, 12, 40, 52, True, 13, 40, 53, True, 19, 38, 57, True, 14, 32, 46, True, 35, True, 30, True, 33, True, 29, True, 25, True, 391
+Chhaya, 71307316M, 15, 30, 45, True, 28, 47, 75, True, 15, 48, 63, True, 17, 40, 57, True, 21, 29, 50, True, 38, True, 38, True, 34, True, 30, True, 38, True, 468
+Deepak Sharma, 71206635H, 15, 16, 31, False, 15, 47, 62, True, 12, 33, 45, True, 10, 30, 40, True, 12, 22, 34, False, 20, True, 0, False, 25, True, 30, True, 28, True, 315
+Dharamahendra Singh Rat, 71307324B, 16, 24, 40, False, 23, 49, 72, True, 16, 52, 68, True, 17, 38, 55, True, 23, 28, 51, True, 42, True, 10, False, 38, True, 43, True, 45, True, 464
+Gaurav Singh, 71307333M, 23, 38, 61, True, 28, 63, 91, True, 15, 54, 69, True, 22, 53, 75, True, 26, 37, 63, True, 45, True, 40, True, 37, True, 35, True, 40, True, 556
+Hari Krishna M, 71307336f, 12, 17, 29, False, 21, 41, 62, True, 12, 48, 60, True, 12, 17, 29, False, 20, 23, 43, False, 44, True, 38, True, 42, True, 32, True, 37, True, 416
+Harinder Singh, 71307337D, 17, 28, 45, True, 18, 36, 54, True, 13, 43, 56, True, 20, 42, 62, True, 23, 30, 53, True, 22, True, 10, False, 32, True, 38, True, 30, True, 402
+Hemant, 71307341B, 14, 28, 42, True, 13, 50, 63, True, 16, 47, 63, True, 23, 46, 69, True, 24, 35, 59, True, 41, True, 35, True, 38, True, 35, True, 32, True, 477
+Himanshu Dubey, 71307342L, 13, 28, 41, True, 21, 44, 65, True, 18, 46, 64, True, 12, 40, 52, True, 23, 24, 47, False, 41, True, 34, True, 40, True, 35, True, 33, True, 452
+Jaya Bisht, 71307346C, 18, 37, 55, True, 28, 60, 88, True, 17, 53, 70, True, 20, 46, 66, True, 23, 32, 55, True, 46, True, 42, True, 38, True, 38, True, 42, True, 540
+Jayant Kumar, 71307347M, 18, 35, 53, True, 28, 60, 88, True, 21, 54, 75, True, 18, 42, 60, True, 22, 34, 56, True, 45, True, 40, True, 38, True, 36, True, 42, True, 533
+Jitendermathur, 71307349H, 17, 1, 18, False, 12, 10, 22, False, 16, 13, 29, False, 17, 3, 20, False, 11, 2, 13, False, 39, True, 34, True, 35, True, 22, True, 25, True, 257
+Kapil Kumar Dalal, 71307359E, 19, 32, 51, True, 28, 48, 76, True, 17, 51, 68, True, 17, 39, 56, True, 15, 33, 48, True, 42, True, 32, True, 42, True, 38, True, 40, True, 493
+Kundan Singh, 71307366H, 16, 30, 46, True, 20, 59, 79, True, 18, 53, 71, True, 20, 29, 49, True, 20, 30, 50, True, 40, True, 30, True, 39, True, 32, True, 40, True, 476
+Lal Babu Chaudhary, 71307369B, 17, 31, 48, True, 18, 49, 67, True, 14, 46, 60, True, 21, 30, 51, True, 22, 29, 51, True, 39, True, 10, False, 33, True, 32, True, 25, True, 416
+Mahendra Pratap, 71206683H, 14, 10, 24, False, 10, 21, 31, False, 8, 20, 28, False, 13, 4, 17, False, 10, 23, 33, False, 32, True, 30, True, 0, False, 0, False, 24, True, 219
+Md Imgeeyaul Ansari, 71307380C, 18, 36, 54, True, 12, 35, 47, True, 20, 24, 44, False, 17, 19, 36, False, 18, 33, 51, True, 32, True, 26, True, 37, True, 25, True, 26, True, 378
+Mohammad Abdul Gulfam, 71206696K, 16, 38, 54, True, 8, 35, 43, True, 18, 28, 46, True, 21, 8, 29, False, 18, 0, 18, False, 32, True, 10, False, 35, True, 29, True, 25, True, 321
+Mohammad Jahangir Siddi, 71307384F, 17, 44, 61, True, 17, 33, 50, True, 25, 29, 54, True, 24, 40, 64, True, 23, 43, 66, True, 40, True, 32, True, 38, True, 35, True, 28, True, 468
+Parikshit Hooda, 71307402H, 22, 34, 56, True, 28, 36, 64, True, 21, 28, 49, True, 23, 41, 64, True, 23, 43, 66, True, 45, True, 42, True, 45, True, 43, True, 40, True, 514
+Parveen Kumar, 71307404D, 15, 35, 50, True, 28, 39, 67, True, 19, 23, 42, False, 16, 38, 54, True, 19, 43, 62, True, 44, True, 40, True, 35, True, 20, True, 38, True, 452
+Pawan Kumar, 71307405B, 14, 43, 57, True, 16, 44, 60, True, 16, 28, 44, True, 20, 31, 51, True, 24, 43, 67, True, 40, True, 38, True, 38, True, 40, True, 38, True, 473
+Pradeep Mishra, 71307412E, 13, 30, 43, True, 17, 45, 62, True, 12, 28, 40, True, 18, 36, 54, True, 22, 39, 61, True, 42, True, 35, True, 38, True, 36, True, 38, True, 449
+Prakash Singh, 71307414M, 22, 40, 62, True, 22, 38, 60, True, 16, 30, 46, True, 15, 37, 52, True, 20, 41, 61, True, 42, True, 30, True, 33, True, 36, True, 35, True, 457
+Praveen Kumar Dara, 71307419B, 21, 38, 59, True, 21, 34, 55, True, 13, 28, 41, True, 18, 42, 60, True, 20, 45, 65, True, 37, True, 30, True, 40, True, 35, True, 36, True, 458
+Purushottam Kumar Baghe, 71307426E, 20, 33, 53, True, 18, 37, 55, True, 16, 28, 44, True, 17, 38, 55, True, 22, 36, 58, True, 39, True, 35, True, 32, True, 39, True, 35, True, 445
+Pushpendra Singh, 71307428M, 20, 38, 58, True, 21, 46, 67, True, 18, 33, 51, True, 19, 43, 62, True, 21, 43, 64, True, 43, True, 36, True, 37, True, 30, True, 34, True, 482
+Ranjeet Singh, 71206761C, 1, 6, 7, False, 2, 5, 7, False, 2, 3, 5, False, 9, 3, 12, False, 17, 8, 25, False, 25, True, 28, True, 10, False, 8, False, 25, True, 152
+Rati Shankar, 71307442G, 22, 41, 63, True, 16, 24, 40, False, 19, 29, 48, True, 24, 36, 60, True, 25, 38, 63, True, 42, True, 30, True, 38, True, 32, True, 29, True, 445
+Raunak Bhadoriya, 71307443E, 19, 43, 62, True, 18, 30, 48, True, 21, 28, 49, True, 22, 35, 57, True, 25, 39, 64, True, 42, True, 28, True, 33, True, 30, True, 32, True, 445
+Ritesh Pandey, 71307447H, 14, 35, 49, True, 16, 37, 53, True, 17, 22, 39, False, 18, 34, 52, True, 23, 34, 57, True, 44, True, 38, True, 33, True, 34, True, 40, True, 439
+Rohtash Singh, 71307457E, 21, 36, 57, True, 21, 40, 61, True, 18, 29, 47, True, 21, 22, 43, False, 25, 31, 56, True, 46, True, 42, True, 35, True, 36, True, 38, True, 461
+Sampuran Singh, 71307462M, 17, 39, 56, True, 7, 25, 32, False, 13, 28, 41, True, 21, 46, 67, True, 25, 43, 68, True, 38, True, 32, True, 34, True, 34, True, 38, True, 440
+Sandeep Singh, 71307465f, 16, 37, 53, True, 21, 41, 62, True, 20, 19, 39, False, 14, 28, 42, True, 20, 38, 58, True, 42, True, 38, True, 40, True, 38, True, 39, True, 451
+Sanjay Rawat, 71307468L, 17, 39, 56, True, 26, 49, 75, True, 16, 28, 44, True, 19, 39, 58, True, 24, 37, 61, True, 46, True, 44, True, 42, True, 40, True, 45, True, 511
+Shashi Bhushan Kumar, 71307478H, 19, 41, 60, True, 6, 18, 24, False, 16, 29, 45, True, 22, 41, 63, True, 23, 38, 61, True, 38, True, 30, True, 32, True, 36, True, 29, True, 418
+Shraddha Nayak, 71307482F, 12, 33, 45, True, 19, 42, 61, True, 21, 29, 50, True, 18, 39, 57, True, 21, 43, 64, True, 40, True, 35, True, 43, True, 40, True, 32, True, 467
+Shweta Singh, 71307487G, 20, 37, 57, True, 23, 48, 71, True, 23, 29, 52, True, 20, 36, 56, True, 25, 43, 68, True, 42, True, 40, True, 40, True, 43, True, 40, True, 509
+Subham Singh Jamwal, 71307492C, 13, 35, 48, True, 7, 18, 25, False, 17, 22, 39, False, 18, 39, 57, True, 18, 30, 48, True, 39, True, 36, True, 36, True, 34, True, 32, True, 394
+Tejpal, 71307504L, 1, 14, 15, False, 1, 7, 8, False, 7, 5, 12, False, 8, 1, 9, False, 18, 9, 27, False, 20, True, 10, False, 12, False, 10, False, 24, True, 147
+Vinay Punera, 71307518L, 23, 30, 53, True, 28, 40, 68, True, 23, 28, 51, True, 23, 46, 69, True, 25, 40, 65, True, 45, True, 42, True, 38, True, 40, True, 47, True, 518
+Vineet Saini, 71307522J, 26, 42, 68, True, 26, 43, 69, True, 21, 29, 50, True, 22, 47, 69, True, 25, 44, 69, True, 44, True, 30, True, 38, True, 36, True, 48, True, 521
+Vipin Kumar, 71307524E, 24, 34, 58, True, 24, 39, 63, True, 24, 24, 48, False, 22, 46, 68, True, 27, 36, 63, True, 45, True, 35, True, 39, True, 43, True, 47, True, 509
+Vishal Kumar Singh, 71307527K, 19, 29, 48, True, 22, 34, 56, True, 22, 23, 45, False, 15, 46, 61, True, 24, 37, 61, True, 43, True, 34, True, 42, True, 40, True, 30, True, 460

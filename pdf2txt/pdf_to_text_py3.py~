@@ -1,0 +1,9 @@
+from subprocess import call
+
+print "Input year : "
+year = str(input())
+file = "../rawPdfs" + year + ".pdf"
+call(["pdf2txt.py", file])
+
+call(["pdf2txt.py", "rawPdfs/fe.pdf"])
+

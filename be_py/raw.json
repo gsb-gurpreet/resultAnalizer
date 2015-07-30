@@ -1,0 +1,97 @@
+[
+{
+"student_name":"Aditya Ghosh",
+"mom_name":"Tara Ghosh",
+"perma_reg_num":"71206564E",
+"total_marks":"1121",
+"branch": "Mechanical",
+"subjects":
+[
+{
+"code":"010 ",
+"name":"Cad/cam Automation",
+"type":"PP",
+"max_marks":"100",
+ERROR CRROUPT I/P
+},
+{
+"code":"010 ",
+"name":"Cad/cam Automation",
+"type":"TW",
+"max_marks":"25",
+ERROR CRROUPT I/P
+},
+{
+"code":"010 ",
+"name":"Cad/cam Automation",
+"type":"PR",
+"max_marks":"50",
+ERROR CRROUPT I/P
+},
+{
+"code":"020 ",
+"name":"Dynamics Of Machinery",
+"type":"PP",
+"max_marks":"100",
+ERROR CRROUPT I/P
+},
+{
+"code":"020 ",
+"name":"Dynamics Of Machinery",
+"type":"TW",
+"max_marks":"25",
+ERROR CRROUPT I/P
+},
+{
+"code":"020 ",
+"name":"Dynamics Of Machinery",
+"type":"OR",
+"max_marks":"50",
+ERROR CRROUPT I/P
+},
+{
+"code":"030 ",
+"name":"Industrial Fluid Power",
+"type":"PP",
+"max_marks":"100",
+ERROR CRROUPT I/P
+},
+{
+"code":"030 ",
+"name":"Industrial Fluid Power",
+"type":"TW",
+"max_marks":"25",
+ERROR CRROUPT I/P
+},
+{
+"code":"030 ",
+"name":"Industrial Fluid Power",
+"type":"OR",
+"max_marks":"50",
+ERROR CRROUPT I/P
+},
+{
+"code":"04D ",
+"name":"Tribology",
+"type":"PP",
+"max_marks":"100",
+ERROR CRROUPT I/P
+},
+{
+"code":"04D ",
+"name":"Tribology",
+"type":"TW",
+"max_marks":"25",
+ERROR CRROUPT I/P
+},
+{
+"code":"05A ",
+"name":"Automobile Engineering",
+"type":"PP",
+"max_marks":"100",
+"obtained_marks":"52",
+"is_pass":"P"
+},
+{
+"code":"",
+"name":"",
